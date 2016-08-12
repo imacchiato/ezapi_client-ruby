@@ -1,5 +1,5 @@
 require "ezapi_client/version"
 
-module EzapiClient
+module EZAPIClient
   # Your code goes here...
 end

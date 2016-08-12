@@ -5,7 +5,7 @@ require 'ezapi_client/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ezapi_client"
-  spec.version       = EzapiClient::VERSION
+  spec.version       = EZAPIClient::VERSION
   spec.authors       = ["Ramon Tayag"]
   spec.email         = ["ramon.tayag@gmail.com"]
 

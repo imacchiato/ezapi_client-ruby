@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe EzapiClient do
+describe EZAPIClient do
   it 'has a version number' do
-    expect(EzapiClient::VERSION).not_to be nil
+    expect(EZAPIClient::VERSION).not_to be nil
   end
 
   it 'does something useful' do

@@ -16,11 +16,14 @@ require "ezapi_client/services/gen_password_token"
 require "ezapi_client/services/gen_data"
 require "ezapi_client/requests/base_request"
 require "ezapi_client/requests/create_transaction_request"
+require "ezapi_client/requests/check_transaction_request"
 require "ezapi_client/responses/base_response"
 require "ezapi_client/responses/create_transaction_response"
+require "ezapi_client/responses/check_transaction_response"
 require "ezapi_client/schemas/base_schema"
 require "ezapi_client/schemas/client_schema"
 require "ezapi_client/schemas/create_transaction_request_schema"
+require "ezapi_client/schemas/check_transaction_request_schema"
 
 module EZAPIClient
 

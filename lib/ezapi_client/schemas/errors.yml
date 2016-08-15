@@ -1,0 +1,4 @@
+---
+en:
+  errors:
+    exists?: "must exist"

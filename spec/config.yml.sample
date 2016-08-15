@@ -1,0 +1,6 @@
+---
+username: changeme
+password: changeme
+# you may place the following in spec/fixtures - all *.eks and *.prv are not committed.
+eks_path: spec/fixtures/ABC0001.eks
+prv_path: spec/fixtures/ABC0001.prv

@@ -7,3 +7,6 @@
 /pkg/
 /spec/reports/
 /tmp/
+/spec/fixtures/*.eks
+/spec/fixtures/*.prv
+/spec/config.yml

@@ -1,0 +1,548 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction?data=YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt%2BO%2BDucdDM%2BNSJ0FDEnEnfikoNYC/qBLaC7qmDh%2Bkuge7yjqYaCh0MO0JNd5lPPPHo%2Bm6WgDNMiOLL8jvKP8cBE63F/1mgy1cmNh0BiTTekSRhvYygKk03APUD8K9BM6HhVJqZIseksz4KwOqgoQJtsuswUJqKIO7xIfXXLq0q3yejPB0eIppE%2BddeauYaIvLZDeGQZVIUIfITheLs/Mu3qV0NEeS/oAtSAqToATElQIuvYNLvsIYUDoVq0JX%2BD7a4GoRq9RSVwFpbuIyEtil67cfwu7OSS8WDe30VbhSCUyl0flzCxx7cTVzjYVHarb5MVpZuAUICNNFi2Y1K%2Bhwa81DlCLgHdb/6ZaGR3dwcGeNtudLByYSa6VkP2uQcb44V5FTKi9J1cNq6/eFPdb9HBpx5Jsa81%2BUSKiMwaINQnw9S5o7Tl6QWuHE7wCymTs6mlYq5KcDhwE/jN32BrtXdVXnrm%2BciOMnkIAWCTjbaKLZokwFjVjkh/FXC9rM4QEYzDrgCpyGsSwuOzD%2BIPX84kem10I6wR2A%2B3ZK9tbOdzMpvtz3BP7RuNJdO3dr8G4AebpXNfuMQJ06D8IIWLyS845ZjALfftl4vOel5dIn0hdbS7USLpkOCN0v8Kv3Xo7OGcxxpusY0n4RWBvAetZq/baCLFrFrUqK9YbPDE196NnhnmJf7A1SEHLMJBqHsxDtAJjjQ%2BdsWEtuKF85VUdWmkjVFYC1X2oKGMb4O6mhGOZIymSzbXlsRgCklQaEtO/%2BKQB4cQ5Z/Wn/BCVMXM/GtmqBufNkCvtlJwNoA7WIEo//38c3r%2BJFAcvQuoAWGFdFrkVNScAkWwAteRBUiTnJRcLXc4PgJyhodoteDoNOLG8JMDujpIUL2juLoX9AbGbfSLeNuOzfzuppyo8RY%0A&password=h2ye%2BjSX5k2AZ0RJ9b%2BEIQzMOoB%2BdJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5%2Bf0FbS87Z3/dSAjM4qcGuCrwO8z3VOCCsZkK2/hXw6pjkkjBE93FRNIQblwJaix7nmdzXOE8qsha938hr7rDiugDGPRU0O&reference_no=6641f438cc1bd2d751238ccc&username=AoQWZOTJiCu%2BiMQA/T3GCx/w3kM=
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"cf9427e4bdaf72ca0587d9f45a56f6a3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJThlM2Y3NGMzZmE4ZDA1ZTc1NjdlMzhjNzkxYjA1MjRkBjsAVA%3D%3D--7c4b135416520e326943e36b6dca3f4e086e9766;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 21d3d8c932a34bc6eccb821fd1a164e1
+      X-Runtime:
+      - '0.556213'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"IRP","message":"Missing or invalid recipient''s phone","success":false}'
+    http_version: 
+  recorded_at: Sat, 13 Aug 2016 06:24:02 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction?data=YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt%2BO%2BDucdDM%2BNSJ0FDEnEnfikoNYC/qBLaC7qmDh%2Bkuge7yjqYaCh0MO0JNd5lPPPHo%2Bm6WgDNMiOLL8jvKVETPgPbCLLIU4HZNckdZ3dtQL3azgqeHvFRUi4blRxBBM6HhVJqZIseksz4KwOqgups8%2B4o4LRdO01Z7UKLyl72SFsGgKGEANYThTep9q3waIvLZDeGQZVIUIfITheLsrIE04t6ac7GoWJ8I8c55WDElQIuvYNLvsIYUDoVq0JX%2BD7a4GoRq9RSVwFpbuIyEtil67cfwu7OSS8WDe30VbhSCUyl0flzCxx7cTVzjYVHarb5MVpZuAUICNNFi2Y1K%2Bhwa81DlCLgHdb/6ZaGR3dwcGeNtudLByYSa6VkP2uQcb44V5FTKi9J1cNq6/eFPdb9HBpx5Jsa81%2BUSKiMwaINQnw9S5o7Tl6QWuHE7wCymTs6mlYq5KcDhwE/jN32BrtXdVXnrm%2BciOMnkIAWCTjbaKLZokwFjVjkh/FXC9rM4QEYzDrgCpyGsSwuOzD%2BIPX84kem10I6wR2A%2B3ZK9tbOdzMpvtz3BP7RuNJdO3dr8G4AebpXNfuMQJ06D8IIWLyS845ZjALfftl4vOel5dIn0hdbS7USLpkOCN0v8Kv3Xo7OGcxxpusY0n4RWBvAetZq/baCLFrFrUqK9YbPDE196NnhnmJf7A1SEHLMJBqHsxDtAJjjQ%2BdsWEtuKF85VUdWmkjVFYC1X2oKGMb4O6mhGOZIymSzbXlsRgCklQaEtO/%2BKQB4cQ5Z/Wn/BCVMXM/GtmqBufNkCvtlJwNoA7WIEo//38c3r%2BJFAcvQuoAWGFdFrkVNScAkWwAteRBUiTnJRcLXc4PgJyhodoteDoNOLG8JMDujpIUL2juLoX9AbGbfSLeNuOzfzuppyo8RY%0A&password=h2ye%2BjSX5k2AZ0RJ9b%2BEIQzMOoB%2BdJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5%2Bf0FbS87Z3/dSAjM4qcGuCrwO8z3VOxl67uinvcs92Xq3yWcleuk3eVYA23o1zYQ2pZkfPcLqsha938hr7rDiugDGPRU0O&reference_no=184b8f4fcfafa2af242cf1f8&username=AoQWZOTJiCu%2BiMQA/T3GCx/w3kM=
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"cf9427e4bdaf72ca0587d9f45a56f6a3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWZiNWQ0YTk2YWU3YjhjOGFlZDY4M2FmNWI0ZWRhYzA1BjsAVA%3D%3D--301badb3fe6112d50d65b1d884e4b202937e282a;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 8f306aa9d546e6ec301bf6cc44b87ff3
+      X-Runtime:
+      - '0.585631'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"IRP","message":"Missing or invalid recipient''s phone","success":false}'
+    http_version: 
+  recorded_at: Sun, 14 Aug 2016 23:32:27 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction?data=YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt%2BO%2BDucdDM%2BNSJ0FDEnEnfikoNYC/qBLaC7qmDh%2Bkuge7yjqYaCh0MO0JNd5lPPPHo%2Bm6WgDNMiOLL8jvK2S1IyBHaHAvIeCqau5OGI0AOp/%2Bj/7rmTsc/qEuW5IZBM6HhVJqZIseksz4KwOqgW0lAbB9j4bcRFHH7UPb8nUmtsY5jVwFghbPy3wOdFw0aIvLZDeGQZVIUIfITheLsrIE04t6ac7GoWJ8I8c55WDElQIuvYNLvsIYUDoVq0JX%2BD7a4GoRq9RSVwFpbuIyEtil67cfwu7OSS8WDe30VbhSCUyl0flzCxx7cTVzjYVHarb5MVpZuAUICNNFi2Y1K%2Bhwa81DlCLgHdb/6ZaGR3dwcGeNtudLByYSa6VkP2uQcb44V5FTKi9J1cNq6/eFPdb9HBpx5Jsa81%2BUSKiMwaINQnw9S5o7Tl6QWuHE7wCymTs6mlYq5KcDhwE/jN32BrtXdVXnrm%2BciOMnkIAWCTjbaKLZokwFjVjkh/FXC9rM4QEYzDrgCpyGsSwuOzD%2BIPX84kem10I6wR2A%2B3ZK9tbOdzMpvtz3BP7RuNJdO3dr8G4AebpXNfuMQJ06D8IIWLyS845ZjALfftl4vOel5dIn0hdbS7USLpkOCN0v8Kv3Xo7OGcxxpusY0n4RWBvAetZq/baCLFrFrUqK9YbPDE196NnhnmJf7A1SEHLMJBqHsxDtAJjjQ%2BdsWEtuKF85VUdWmkjVFYC1X2oKGMb4O6mhGOZIymSzbXlsRgCklQaEtO/%2BKQB4cQ5Z/Wn/BCVMXM/GtmqBufNkCvtlJwNoA7WIEo//38c3r%2BJFAcvQuoAWGFdFrkVNScAkWwAteRBUiTnJRcLXc4PgJyhodoteDoNOLG8JMDujpIUL2juLoX9AbGbfSLeNuOzfzuppyo8RY%0A&password=h2ye%2BjSX5k2AZ0RJ9b%2BEIQzMOoB%2BdJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5%2Bf0FbS87Z3/dSAjM4qcGuCrwO8z3VOR5bhXY6xoFp9iyM7YaTE4q8ZyRjh8ZrUPl2x4B5XR8Ksha938hr7rDiugDGPRU0O&reference_no=f7f583cd51e961fbb7d211b1&username=AoQWZOTJiCu%2BiMQA/T3GCx/w3kM=
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"cf9427e4bdaf72ca0587d9f45a56f6a3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTI3ZjQ4YzFkYmNhMGNkYmIyYzQ1NDM0NjNlOTAxOTY0BjsAVA%3D%3D--91b50daea813ef1ce5c4f4726be1da2096f0d3e8;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 852eb1b1fac01ee940d7c7f8c923f070
+      X-Runtime:
+      - '0.517943'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"IRP","message":"Missing or invalid recipient''s phone","success":false}'
+    http_version: 
+  recorded_at: Sun, 14 Aug 2016 23:33:15 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction?data=YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt%2BO%2BDucdDM%2BNSJ0FDEnEnfikoNYC/qBLaC7qmDh%2Bkuge7yjqYaCh0MO0JNd5lPPPHo%2Bm6WgDNMiOLL8jvKM1Jq9A8yZuaWjr65CXYVWeJ0fVc4d9X4bSjY8P1r2dtBM6HhVJqZIseksz4KwOqgOSNVKScxffVZxJP5aq6C7RPSjF0hETjNr0dbVTNWYq0aIvLZDeGQZVIUIfITheLsrIE04t6ac7GoWJ8I8c55WDElQIuvYNLvsIYUDoVq0JX%2BD7a4GoRq9RSVwFpbuIyEtil67cfwu7OSS8WDe30VbhSCUyl0flzCxx7cTVzjYVHarb5MVpZuAUICNNFi2Y1K%2Bhwa81DlCLgHdb/6ZaGR3dwcGeNtudLByYSa6VkP2uQcb44V5FTKi9J1cNq6/eFPdb9HBpx5Jsa81%2BUSKiMwaINQnw9S5o7Tl6QWuHE7wCymTs6mlYq5KcDhwE/jN32BrtXdVXnrm%2BciOMnkIAWCTjbaKLZokwFjVjkh/FXC9rM4QEYzDrgCpyGsSwuOzD%2BIPX84kem10I6wR2A%2B3ZK9tbOdzMpvtz3BP7RuNJdO3dr8G4AebpXNfuMQJ06D8IIWLyS845ZjALfftl4vOel5dIn0hdbS7USLpkOCN0v8Kv3Xo7OGcxxpusY0n4RWBvAetZq/baCLFrFrUqK9YbPDE196NnhnmJf7A1SEHLMJBqHsxDtAJjjQ%2BdsWEtuKF85VUdWmkjVFYC1X2oKGMb4O6mhGOZIymSzbXlsRgCklQaEtO/%2BKQB4cQ5Z/Wn/BCVMXM/GtmqBufNkCvtlJwNoA7WIEo//38c3r%2BJFAcvQuoAWGFdFrkVNScAkWwAteRBUiTnJRcLXc4PgJyhodoteDoNOLG8JMDujpIUL2juLoX9AbGbfSLeNuOzfzuppyo8RY%0A&password=h2ye%2BjSX5k2AZ0RJ9b%2BEIQzMOoB%2BdJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5%2Bf0FbS87Z3/dSAjM4qcGuCrwO8z3VObdTUTU1XP8quY%2BomMf0kDncDulvzceHfc07SrRRTvL6sha938hr7rDiugDGPRU0O&reference_no=bda972a8825d29a194f57f78&username=AoQWZOTJiCu%2BiMQA/T3GCx/w3kM=
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"cf9427e4bdaf72ca0587d9f45a56f6a3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWI4YjQ0MWE5MjcwYjI1OGIzMmU0ZmVkNmIxNzlhODBjBjsAVA%3D%3D--6810a1f6f1c12b71b5e385be7de95553354fedb5;
+        path=/; HttpOnly
+      X-Request-Id:
+      - c61669d0a6f369943433d83e2dd3791b
+      X-Runtime:
+      - '0.524887'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"IRP","message":"Missing or invalid recipient''s phone","success":false}'
+    http_version: 
+  recorded_at: Sun, 14 Aug 2016 23:33:39 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction?data=YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt%2BO%2BDucdDM%2BNSJ0FDEnEnfikoNYC/qBLaC7qmDh%2Bkuge7yjqYaCh0MO0JNd5lPPPHo%2Bm6WgDNMiOLL8jvKsYYbJeAX3CXlWyU5gZPj3Nwjop0f97ur4i%2BnfJZdyMZBM6HhVJqZIseksz4KwOqgbKI96myS%2Bsv1PPgiyLECK/DtXPPRMLLA1lRBEsPGSOIaIvLZDeGQZVIUIfITheLsrIE04t6ac7GoWJ8I8c55WDElQIuvYNLvsIYUDoVq0JX%2BD7a4GoRq9RSVwFpbuIyEtil67cfwu7OSS8WDe30VbhSCUyl0flzCxx7cTVzjYVHarb5MVpZuAUICNNFi2Y1K%2Bhwa81DlCLgHdb/6ZaGR3dwcGeNtudLByYSa6VkP2uQcb44V5FTKi9J1cNq6/eFPdb9HBpx5Jsa81%2BUSKiMwaINQnw9S5o7Tl6QWuHE7wCymTs6mlYq5KcDhwE/jN32BrtXdVXnrm%2BciOMnkIAWCTjbaKLZokwFjVjkh/FXC9rM4QEYzDrgCpyGsSwuOzD%2BIPX84kem10I6wR2A%2B3ZK9tbOdzMpvtz3BP7RuNJdO3dr8G4AebpXNfuMQJ06D8IIWLyS845ZjALfftl4vOel5dIn0hdbS7USLpkOCN0v8Kv3Xo7OGcxxpusY0n4RWBvAetZq/baCLFrFrUqK9YbPDE196NnhnmJf7A1SEHLMJBqHsxDtAJjjQ%2BdsWEtuKF85VUdWmkjVFYC1X2oKGMb4O6mhGOZIymSzbXlsRgCklQaEtO/%2BKQB4cQ5Z/Wn/BCVMXM/GtmqBufNkCvtlJwNoA7WIEo//38c3r%2BJFAcvQuoAWGFdFrkVNScAkWwAteRBUiTnJRcLXc4PgJyhodoteDoNOLG8JMDujpIUL2juLoX9AbGbfSLeNuOzfzuppyo8RY%0A&password=h2ye%2BjSX5k2AZ0RJ9b%2BEIQzMOoB%2BdJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5%2Bf0FbS87Z3/dSAjM4qcGuCrwO8z3VO6GGv2FTPhjvwvgfdiWwHUjGjlD6cOOuIbftgytZDePmsha938hr7rDiugDGPRU0O&reference_no=437b3b3fe58ddc5123857a09&username=AoQWZOTJiCu%2BiMQA/T3GCx/w3kM=
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"cf9427e4bdaf72ca0587d9f45a56f6a3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTVlYzQyMTc4ZDc2ZDA0NzUyZDRkZGFkNmJiM2E0NDk1BjsAVA%3D%3D--418a8fcb2ba2dfc5e27f7f0c750481c0bf233884;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 90706a5c4519e1ec040e5eedfb9fe273
+      X-Runtime:
+      - '0.553079'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"IRP","message":"Missing or invalid recipient''s phone","success":false}'
+    http_version: 
+  recorded_at: Sun, 14 Aug 2016 23:34:06 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction?data=YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt%2BO%2BDucdDM%2BNSJ0FDEnEnfikoNYC/qBLaC7qmDh%2Bkuge7yjqYaCh0MO0JNd5lPPPHo%2Bm6WgDNMiOLL8jvKxvsJmmHbdrCVcS8yqpttU6cJ4n7pcrZeCVSC8K0vMxtBM6HhVJqZIseksz4KwOqgKFWxew6jvEnmIuntjDEK7bPmtCw3yiRz8%2BUNkuI6pKgaIvLZDeGQZVIUIfITheLsrIE04t6ac7GoWJ8I8c55WDElQIuvYNLvsIYUDoVq0JX%2BD7a4GoRq9RSVwFpbuIyEtil67cfwu7OSS8WDe30VbhSCUyl0flzCxx7cTVzjYVHarb5MVpZuAUICNNFi2Y1K%2Bhwa81DlCLgHdb/6ZaGR3dwcGeNtudLByYSa6VkP2uQcb44V5FTKi9J1cNq6/eFPdb9HBpx5Jsa81%2BUSKiMwaINQnw9S5o7Tl6QWuHE7wCymTs6mlYq5KcDhwE/jN32BrtXdVXnrm%2BciOMnkIAWCTjbaKLZokwFjVjkh/FXC9rM4QEYzDrgCpyGsSwuOzD%2BIPX84kem10I6wR2A%2B3ZK9tbOdzMpvtz3BP7RuNJdO3dr8G4AebpXNfuMQJ06D8IIWLyS845ZjALfftl4vOel5dA5tG5CrQKKm5ZEnBDFCroDOMv0MOu%2BYntgGyrge%2BMxGXXt23laVnD9KOodXqA/EqmWJLDXuwmmEEJIjoP0pQ/7g%2B9/eq4IwpzljT3DVpDP3I0Sojf7/OiKrAqTK0h3V1PeJr1Rid1AoeKnnRV0ArtlVfunibM1g0LlN/jgbMXZCgHaDlYbRgLK4LvrIU3gBNyrB3eWAFg9gCNMzWtkKi78Qp9Os27tomndgC1js8sqJzon7cYzJH1YvEluYjIPwGZP13okFeCoN3cEBFQfecYEAU9B6uYXzrn28IkcwKqMe%0A&password=h2ye%2BjSX5k2AZ0RJ9b%2BEIQzMOoB%2BdJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5%2Bf0FbS87Z3/dSAjM4qcGuCrwO8z3VO4kmcwMSN8gesRCm3uZ/GYnuBwhXpUY1RI7Btb6jXs2Ssha938hr7rDiugDGPRU0O&reference_no=a7bb961b54c10203fab8d39b&username=AoQWZOTJiCu%2BiMQA/T3GCx/w3kM=
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '17182'
+      X-Request-Id:
+      - 4da820f9eb34b9e285ae267ba15e8c5c
+      X-Runtime:
+      - '0.593487'
+      Connection:
+      - keep-alive
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\"
+        />\n  <title>Action Controller: Exception caught</title>\n  <style>\n    body
+        { background-color: #fff; color: #333; }\n\n    body, p, ol, ul, td {\n      font-family:
+        helvetica, verdana, arial, sans-serif;\n      font-size:   13px;\n      line-height:
+        18px;\n    }\n\n    pre {\n      background-color: #eee;\n      padding: 10px;\n
+        \     font-size: 11px;\n      white-space: pre-wrap;\n    }\n\n    a { color:
+        #000; }\n    a:visited { color: #666; }\n    a:hover { color: #fff; background-color:#000;
+        }\n  </style>\n</head>\n<body>\n\n<h1>\n  TypeError\n    in SfaTransactionsController#send_transaction\n</h1>\n<pre>can&#x27;t
+        convert Float to String</pre>\n\n\n<p><code>Rails.root: /home/ubuntu/easytest/ezapi</code></p>\n\n<div
+        id=\"traces\">\n    <a href=\"#\" onclick=\"document.getElementById(&#x27;Framework-Trace&#x27;).style.display=&#x27;none&#x27;;document.getElementById(&#x27;Full-Trace&#x27;).style.display=&#x27;none&#x27;;document.getElementById(&#x27;Application-Trace&#x27;).style.display=&#x27;block&#x27;;;
+        return false;\">Application Trace</a> |\n    <a href=\"#\" onclick=\"document.getElementById(&#x27;Application-Trace&#x27;).style.display=&#x27;none&#x27;;document.getElementById(&#x27;Full-Trace&#x27;).style.display=&#x27;none&#x27;;document.getElementById(&#x27;Framework-Trace&#x27;).style.display=&#x27;block&#x27;;;
+        return false;\">Framework Trace</a> |\n    <a href=\"#\" onclick=\"document.getElementById(&#x27;Application-Trace&#x27;).style.display=&#x27;none&#x27;;document.getElementById(&#x27;Framework-Trace&#x27;).style.display=&#x27;none&#x27;;document.getElementById(&#x27;Full-Trace&#x27;).style.display=&#x27;block&#x27;;;
+        return false;\">Full Trace</a> \n\n    <div id=\"Application-Trace\" style=\"display:
+        block;\">\n      <pre><code>app/controllers/sfa_transactions_controller.rb:624:in
+        `match&#x27;\napp/controllers/sfa_transactions_controller.rb:624:in `checking_validity_of_data&#x27;\napp/controllers/sfa_transactions_controller.rb:145:in
+        `send_transaction&#x27;\nconfig/initializers/quiet_assets.rb:13:in `call_with_quiet_assets&#x27;</code></pre>\n
+        \   </div>\n    <div id=\"Framework-Trace\" style=\"display: none;\">\n      <pre><code>actionpack
+        (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/base.rb:167:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:425:in `_run__127344626218525806__process_action__2521027896288621119__callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action&#x27;\nactivesupport
+        (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument&#x27;\nactivesupport
+        (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument&#x27;\nactivesupport
+        (3.2.13) lib/active_support/notifications.rb:123:in `instrument&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action&#x27;\nactiverecord
+        (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/base.rb:121:in `process&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/rendering.rb:45:in `process&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal.rb:203:in `dispatch&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal.rb:246:in `block in action&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call&#x27;\njourney
+        (1.0.4) lib/journey/router.rb:68:in `block in call&#x27;\njourney (1.0.4)
+        lib/journey/router.rb:56:in `each&#x27;\njourney (1.0.4) lib/journey/router.rb:56:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in
+        `call&#x27;\nwarden (1.2.3) lib/warden/manager.rb:35:in `block in call&#x27;\nwarden
+        (1.2.3) lib/warden/manager.rb:34:in `catch&#x27;\nwarden (1.2.3) lib/warden/manager.rb:34:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in
+        `call&#x27;\nrack (1.4.5) lib/rack/etag.rb:23:in `call&#x27;\nrack (1.4.5)
+        lib/rack/conditionalget.rb:35:in `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in
+        `call&#x27;\nrack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context&#x27;\nrack
+        (1.4.5) lib/rack/session/abstract/id.rb:205:in `call&#x27;\nactionpack (3.2.13)
+        lib/action_dispatch/middleware/cookies.rb:341:in `call&#x27;\nactiverecord
+        (3.2.13) lib/active_record/query_cache.rb:64:in `call&#x27;\nactiverecord
+        (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in
+        `block in call&#x27;\nactivesupport (3.2.13) lib/active_support/callbacks.rb:405:in
+        `_run__127554339503768896__call__3604290257288476921__callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call&#x27;\nrailties
+        (3.2.13) lib/rails/rack/logger.rb:32:in `call_app&#x27;\nrailties (3.2.13)
+        lib/rails/rack/logger.rb:16:in `block in call&#x27;\nactivesupport (3.2.13)
+        lib/active_support/tagged_logging.rb:22:in `tagged&#x27;\nrailties (3.2.13)
+        lib/rails/rack/logger.rb:16:in `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in
+        `call&#x27;\nrack (1.4.5) lib/rack/methodoverride.rb:21:in `call&#x27;\nrack
+        (1.4.5) lib/rack/runtime.rb:17:in `call&#x27;\nactivesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in
+        `call&#x27;\nrack (1.4.5) lib/rack/lock.rb:15:in `call&#x27;\nactionpack (3.2.13)
+        lib/action_dispatch/middleware/static.rb:63:in `call&#x27;\nrailties (3.2.13)
+        lib/rails/engine.rb:479:in `call&#x27;\nrailties (3.2.13) lib/rails/application.rb:223:in
+        `call&#x27;\nrack (1.4.5) lib/rack/content_length.rb:14:in `call&#x27;\nthin
+        (1.7.0) lib/thin/connection.rb:86:in `block in pre_process&#x27;\nthin (1.7.0)
+        lib/thin/connection.rb:84:in `catch&#x27;\nthin (1.7.0) lib/thin/connection.rb:84:in
+        `pre_process&#x27;\nthin (1.7.0) lib/thin/connection.rb:53:in `process&#x27;\nthin
+        (1.7.0) lib/thin/connection.rb:39:in `receive_data&#x27;\neventmachine (1.2.0.1)
+        lib/eventmachine.rb:194:in `run_machine&#x27;\neventmachine (1.2.0.1) lib/eventmachine.rb:194:in
+        `run&#x27;\nthin (1.7.0) lib/thin/backends/base.rb:73:in `start&#x27;\nthin
+        (1.7.0) lib/thin/server.rb:162:in `start&#x27;\nrack (1.4.5) lib/rack/handler/thin.rb:13:in
+        `run&#x27;\nrack (1.4.5) lib/rack/server.rb:268:in `start&#x27;\nrailties
+        (3.2.13) lib/rails/commands/server.rb:70:in `start&#x27;\nrailties (3.2.13)
+        lib/rails/commands.rb:55:in `block in &lt;top (required)&gt;&#x27;\nrailties
+        (3.2.13) lib/rails/commands.rb:50:in `tap&#x27;\nrailties (3.2.13) lib/rails/commands.rb:50:in
+        `&lt;top (required)&gt;&#x27;\nscript/rails:6:in `require&#x27;\nscript/rails:6:in
+        `&lt;main&gt;&#x27;</code></pre>\n    </div>\n    <div id=\"Full-Trace\" style=\"display:
+        none;\">\n      <pre><code>app/controllers/sfa_transactions_controller.rb:624:in
+        `match&#x27;\napp/controllers/sfa_transactions_controller.rb:624:in `checking_validity_of_data&#x27;\napp/controllers/sfa_transactions_controller.rb:145:in
+        `send_transaction&#x27;\nactionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in
+        `send_action&#x27;\nactionpack (3.2.13) lib/abstract_controller/base.rb:167:in
+        `process_action&#x27;\nactionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in
+        `process_action&#x27;\nactionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in
+        `block in process_action&#x27;\nactivesupport (3.2.13) lib/active_support/callbacks.rb:425:in
+        `_run__127344626218525806__process_action__2521027896288621119__callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action&#x27;\nactivesupport
+        (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument&#x27;\nactivesupport
+        (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument&#x27;\nactivesupport
+        (3.2.13) lib/active_support/notifications.rb:123:in `instrument&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action&#x27;\nactiverecord
+        (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/base.rb:121:in `process&#x27;\nactionpack
+        (3.2.13) lib/abstract_controller/rendering.rb:45:in `process&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal.rb:203:in `dispatch&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch&#x27;\nactionpack
+        (3.2.13) lib/action_controller/metal.rb:246:in `block in action&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call&#x27;\njourney
+        (1.0.4) lib/journey/router.rb:68:in `block in call&#x27;\njourney (1.0.4)
+        lib/journey/router.rb:56:in `each&#x27;\njourney (1.0.4) lib/journey/router.rb:56:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in
+        `call&#x27;\nwarden (1.2.3) lib/warden/manager.rb:35:in `block in call&#x27;\nwarden
+        (1.2.3) lib/warden/manager.rb:34:in `catch&#x27;\nwarden (1.2.3) lib/warden/manager.rb:34:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in
+        `call&#x27;\nrack (1.4.5) lib/rack/etag.rb:23:in `call&#x27;\nrack (1.4.5)
+        lib/rack/conditionalget.rb:35:in `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in
+        `call&#x27;\nrack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context&#x27;\nrack
+        (1.4.5) lib/rack/session/abstract/id.rb:205:in `call&#x27;\nactionpack (3.2.13)
+        lib/action_dispatch/middleware/cookies.rb:341:in `call&#x27;\nactiverecord
+        (3.2.13) lib/active_record/query_cache.rb:64:in `call&#x27;\nactiverecord
+        (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in
+        `call&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in
+        `block in call&#x27;\nactivesupport (3.2.13) lib/active_support/callbacks.rb:405:in
+        `_run__127554339503768896__call__3604290257288476921__callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks&#x27;\nactivesupport
+        (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call&#x27;\nactionpack
+        (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call&#x27;\nrailties
+        (3.2.13) lib/rails/rack/logger.rb:32:in `call_app&#x27;\nrailties (3.2.13)
+        lib/rails/rack/logger.rb:16:in `block in call&#x27;\nactivesupport (3.2.13)
+        lib/active_support/tagged_logging.rb:22:in `tagged&#x27;\nrailties (3.2.13)
+        lib/rails/rack/logger.rb:16:in `call&#x27;\nconfig/initializers/quiet_assets.rb:13:in
+        `call_with_quiet_assets&#x27;\nactionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in
+        `call&#x27;\nrack (1.4.5) lib/rack/methodoverride.rb:21:in `call&#x27;\nrack
+        (1.4.5) lib/rack/runtime.rb:17:in `call&#x27;\nactivesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in
+        `call&#x27;\nrack (1.4.5) lib/rack/lock.rb:15:in `call&#x27;\nactionpack (3.2.13)
+        lib/action_dispatch/middleware/static.rb:63:in `call&#x27;\nrailties (3.2.13)
+        lib/rails/engine.rb:479:in `call&#x27;\nrailties (3.2.13) lib/rails/application.rb:223:in
+        `call&#x27;\nrack (1.4.5) lib/rack/content_length.rb:14:in `call&#x27;\nthin
+        (1.7.0) lib/thin/connection.rb:86:in `block in pre_process&#x27;\nthin (1.7.0)
+        lib/thin/connection.rb:84:in `catch&#x27;\nthin (1.7.0) lib/thin/connection.rb:84:in
+        `pre_process&#x27;\nthin (1.7.0) lib/thin/connection.rb:53:in `process&#x27;\nthin
+        (1.7.0) lib/thin/connection.rb:39:in `receive_data&#x27;\neventmachine (1.2.0.1)
+        lib/eventmachine.rb:194:in `run_machine&#x27;\neventmachine (1.2.0.1) lib/eventmachine.rb:194:in
+        `run&#x27;\nthin (1.7.0) lib/thin/backends/base.rb:73:in `start&#x27;\nthin
+        (1.7.0) lib/thin/server.rb:162:in `start&#x27;\nrack (1.4.5) lib/rack/handler/thin.rb:13:in
+        `run&#x27;\nrack (1.4.5) lib/rack/server.rb:268:in `start&#x27;\nrailties
+        (3.2.13) lib/rails/commands/server.rb:70:in `start&#x27;\nrailties (3.2.13)
+        lib/rails/commands.rb:55:in `block in &lt;top (required)&gt;&#x27;\nrailties
+        (3.2.13) lib/rails/commands.rb:50:in `tap&#x27;\nrailties (3.2.13) lib/rails/commands.rb:50:in
+        `&lt;top (required)&gt;&#x27;\nscript/rails:6:in `require&#x27;\nscript/rails:6:in
+        `&lt;main&gt;&#x27;</code></pre>\n    </div>\n</div>\n\n\n\n<h2 style=\"margin-top:
+        30px\">Request</h2>\n<p><b>Parameters</b>: <pre>{&quot;username&quot;=&gt;&quot;AoQWZOTJiCu+iMQA/T3GCx/w3kM=&quot;,\n
+        &quot;reference_no&quot;=&gt;&quot;a7bb961b54c10203fab8d39b&quot;,\n &quot;data&quot;=&gt;&quot;YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt+O+DucdDM+NSJ0FDEnEnfikoNYC/qBLaC7qmDh+kuge7yjqYaCh0MO0JNd5lPPPHo+m6WgDNMiOLL8jvKxvsJmmHbdrCVcS8yqpttU6cJ4n7pcrZeCVSC8K0vMxtBM6HhVJqZIseksz4KwOqgKFWxew6jvEnmIuntjDEK7bPmtCw3yiRz8+UNkuI6pKgaIvLZDeGQZVIUIfITheLsrIE04t6ac7GoWJ8I8c55WDElQIuvYNLvsIYUDoVq0JX+D7a4GoRq9RSVwFpbuIyEtil67cfwu7OSS8WDe30VbhSCUyl0flzCxx7cTVzjYVHarb5MVpZuAUICNNFi2Y1K+hwa81DlCLgHdb/6ZaGR3dwcGeNtudLByYSa6VkP2uQcb44V5FTKi9J1cNq6/eFPdb9HBpx5Jsa81+USKiMwaINQnw9S5o7Tl6QWuHE7wCymTs6mlYq5KcDhwE/jN32BrtXdVXnrm+ciOMnkIAWCTjbaKLZokwFjVjkh/FXC9rM4QEYzDrgCpyGsSwuOzD+IPX84kem10I6wR2A+3ZK9tbOdzMpvtz3BP7RuNJdO3dr8G4AebpXNfuMQJ06D8IIWLyS845ZjALfftl4vOel5dA5tG5CrQKKm5ZEnBDFCroDOMv0MOu+YntgGyrge+MxGXXt23laVnD9KOodXqA/EqmWJLDXuwmmEEJIjoP0pQ/7g+9/eq4IwpzljT3DVpDP3I0Sojf7/OiKrAqTK0h3V1PeJr1Rid1AoeKnnRV0ArtlVfunibM1g0LlN/jgbMXZCgHaDlYbRgLK4LvrIU3gBNyrB3eWAFg9gCNMzWtkKi78Qp9Os27tomndgC1js8sqJzon7cYzJH1YvEluYjIPwGZP13okFeCoN3cEBFQfecYEAU9B6uYXzrn28IkcwKqMe\\n&quot;,\n
+        &quot;password&quot;=&gt;&quot;[FILTERED]&quot;,\n &quot;format&quot;=&gt;:json}</pre></p>\n\n<p><a
+        href=\"#\" onclick=\"document.getElementById('session_dump').style.display='block';
+        return false;\">Show session dump</a></p>\n<div id=\"session_dump\" style=\"display:none\"><pre></pre></div>\n\n<p><a
+        href=\"#\" onclick=\"document.getElementById('env_dump').style.display='block';
+        return false;\">Show env dump</a></p>\n<div id=\"env_dump\" style=\"display:none\"><pre>GATEWAY_INTERFACE:
+        &quot;CGI/1.2&quot;\nHTTP_ACCEPT: &quot;*/*&quot;\nHTTP_ACCEPT_ENCODING: &quot;gzip;q=1.0,deflate;q=0.6,identity;q=0.3&quot;\nREMOTE_ADDR:
+        &quot;121.58.225.195&quot;\nSERVER_NAME: &quot;52.88.11.99&quot;\nSERVER_PROTOCOL:
+        &quot;HTTP/1.1&quot;</pre></div>\n\n\n<h2 style=\"margin-top: 30px\">Response</h2>\n<p><b>Headers</b>:
+        <pre>None</pre></p>\n\n\n\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 14 Aug 2016 23:57:14 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction?data=YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt%2BO%2BDucdDM%2BNSJ0FDEnEnfikoNYC/qBLaC7qmDh%2Bkuge7yjqYaCh0MO0JNd5lPPPHo%2Bm6WgDNMiOLL8jvKceXULxTo%2BLZdvAu48mYfNe8CPrMxA7WiaE0/B1HPoeVWuyWtr1puOsquphykRCThSAuc%2BIiCtFGhvVxoZibFCCWzYSqAp6NM9NKN4cXk2p1luGK4gFklgRM7dMnz9sxbCLOOMdUNjAsX%2BX9Tur2KxkCQgC6378RAspvkvs1trq7pSwl5YQE%2BWRI0orygeTOCGPAW9ux59nlEg63HNsMwOjxl05T8QXSfq61chlFuIiTIAg/oZSjfdWgCaK29r1SAR7oc0HlZIpRyehaA/vQUtmjpjvbufcwoXagEhRaDc54u4kHGzCkJJlsiYJ1UfleTgwHp7tYBQe739bRL80F40OT/IRjIemegIx%2BYPagv2HkfZc3q2nbyjsmU5wyiUu1X5cRXBIFgnREx3ci9PE3pzAI3w%2BbQD7N9hkNT1X2Iu%2BKJ9IXW0u1Ei6ZDgjdL/Cr9yNfm5zMEjFY9ykJBIPWV1CBWogOzU3EXHEODUFr1SrONpLKlr5Ol3VvZOuk0Pa5ryuPu1DeMErBEUa/WLSFEKIJKM6wfUwgECPuDHyxY5NzAR2GFckMp%2BxGGQD9GrSa8vttKfMlV2FBl88Ho3tPfOCNCitwoQfe5lKZExN2I9OhzJEFSsfkcmsxaMDwAxRUEzkl9B1hHPgdZ/Ze8hDkqd/fjzY0WF9RSxiaMm6HeZfMitA%2BHGYIJB9Kq7UiuYjRQfFg1OJJqtK04JOigEjcJlPup5G7KpnT2Jm25KZ6oPL2Pj5WzadiS6BacqOOjJAMetgHxZiKAYgGMi4DPcDpHp%2BWGeSGi1j3ou9sra6%2BGyt199hqtrIhtKS1WSe6evJkG&password=h2ye%2BjSX5k2AZ0RJ9b%2BEIQzMOoB%2BdJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5%2Bf0FbS87Z3/dSAjM4qcGuCrwO8z3VONBdOL9WDAdo1F1QJZCRJiTe9nomNuAqN3gpGnqnoBvc=&reference_no=0e3ec224a138a7c6f3e4&username=AoQWZOTJiCu%2BiMQA/T3GCx/w3kM=
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWM4YWQ3MmRhMDJiYTU4NTgwMGFiODcyZmFkZjQxMWIxBjsAVA%3D%3D--79dc7298d67e741c45e8288b07b1d499f48097b4;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 90e6eb2e24ff10ba9f9623a80fa1c9f5
+      X-Runtime:
+      - '1.002898'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"RCV","message":"Transaction was received successfully, all
+        initial data validation passed","success":true}'
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 06:38:32 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction.json
+    body:
+      encoding: UTF-8
+      string: '{"username":"AoQWZOTJiCu+iMQA/T3GCx/w3kM=","reference_no":"20cf82a9a378e525cb7a","data":"YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt+O+DucdDM+NSJ0FDEnEnfikoNYC/qBLaC7qmDh+kuge7yjqYaCh0MO0JNd5lPPPHo+m6WgDNMiOLL8jvKrXCkoKGrdnKy10ZbxmxxlqFN+ycg3qIPItrvHQGKB/Fno4/h1BUUEICN470Fq2OV6yYDy3kw/QfXZh/3Fmxxn9eaIVfYuiJzAHcIVXNshX1luGK4gFklgRM7dMnz9sxbCLOOMdUNjAsX+X9Tur2KxkCQgC6378RAspvkvs1trq7pSwl5YQE+WRI0orygeTOCGPAW9ux59nlEg63HNsMwOjxl05T8QXSfq61chlFuIiTIAg/oZSjfdWgCaK29r1SAR7oc0HlZIpRyehaA/vQUtmjpjvbufcwoXagEhRaDc54u4kHGzCkJJlsiYJ1UfleTgwHp7tYBQe739bRL80F40OT/IRjIemegIx+YPagv2HkfZc3q2nbyjsmU5wyiUu1X5cRXBIFgnREx3ci9PE3pzAI3w+bQD7N9hkNT1X2Iu+KJ9IXW0u1Ei6ZDgjdL/Cr9yNfm5zMEjFY9ykJBIPWV1CBWogOzU3EXHEODUFr1SrONpLKlr5Ol3VvZOuk0Pa5ryuPu1DeMErBEUa/WLSFEKIJKM6wfUwgECPuDHyxY5NzAR2GFckMp+xGGQD9GrSa8vttKfMlV2FBl88Ho3tPfOCNCitwoQfe5lKZExN2I9OhzJEFSsfkcmsxaMDwAxRUEzkl9B1hHPgdZ/Ze8hDkqd/fjzY0WF9RSxiaMm6HeZfMitA+HGYIJB9Kq7UiuYjRQfFg1OJJqtK04JOigEjcJlPup5G7KpnT2Jm25KZ6oPL2Pj5WzadiS6BacqOOjJAMetgHxZiKAYgGMi4DPcDpHp+WGeSGi1j3ou9sra6+Gyt199hqtrIhtKS1WSe6evJkG","password":"h2ye+jSX5k2AZ0RJ9b+EIQzMOoB+dJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5+f0FbS87Z3/dSAjM4qcGuCrwO8z3VO5fYOfgNuU0cdnNSogIwrUnNXOTJ/tDSX+Y+xUU4wiIk="}'
+    headers:
+      Content-Type:
+      - appilcation/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"073147425fc02173a278ec1d316e555d"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTU0YzdiMjA2MDE4NjExNTU5NDA3YjgzMGMxNTFmMjcwBjsAVA%3D%3D--c1cb6436c49d49a56b5b3d275b3ccb3ab1eb0e2d;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 5b5367fd5a1839ef8d6bbcd367001f69
+      X-Runtime:
+      - '0.002972'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"MIS","message":"One or more parameters are missing: username,
+        password, reference_no, data","success":false}'
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 06:53:46 GMT
+- request:
+    method: post
+    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction
+    body:
+      encoding: UTF-8
+      string: '{"username":"AoQWZOTJiCu+iMQA/T3GCx/w3kM=","reference_no":"6efca709d9f9dce29aa0","data":"YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt+O+DucdDM+NSJ0FDEnEnfikoNYC/qBLaC7qmDh+kuge7yjqYaCh0MO0JNd5lPPPHo+m6WgDNMiOLL8jvK4Bn4FgGyUEw2fdCjG6KN/mXwNE2kP1noPSga0yyLd2lXYFuq6xqxG1CcAnKfwUnNznPzY4FFW+Y3LzLdUtx2R9fXoqA78nJvjKQi4wkr+epluGK4gFklgRM7dMnz9sxbCLOOMdUNjAsX+X9Tur2KxkCQgC6378RAspvkvs1trq7pSwl5YQE+WRI0orygeTOCGPAW9ux59nlEg63HNsMwOjxl05T8QXSfq61chlFuIiTIAg/oZSjfdWgCaK29r1SAR7oc0HlZIpRyehaA/vQUtmjpjvbufcwoXagEhRaDc54u4kHGzCkJJlsiYJ1UfleTgwHp7tYBQe739bRL80F40OT/IRjIemegIx+YPagv2HkfZc3q2nbyjsmU5wyiUu1X5cRXBIFgnREx3ci9PE3pzAI3w+bQD7N9hkNT1X2Iu+KJ9IXW0u1Ei6ZDgjdL/Cr9yNfm5zMEjFY9ykJBIPWV1CBWogOzU3EXHEODUFr1SrONpLKlr5Ol3VvZOuk0Pa5ryuPu1DeMErBEUa/WLSFEKIJKM6wfUwgECPuDHyxY5NzAR2GFckMp+xGGQD9GrSa8vttKfMlV2FBl88Ho3tPfOCNCitwoQfe5lKZExN2I9OhzJEFSsfkcmsxaMDwAxRUEzkl9B1hHPgdZ/Ze8hDkqd/fjzY0WF9RSxiaMm6HeZfMitA+HGYIJB9Kq7UiuYjRQfFg1OJJqtK04JOigEjcJlPup5G7KpnT2Jm25KZ6oPL2Pj5WzadiS6BacqOOjJAMetgHxZiKAYgGMi4DPcDpHp+WGeSGi1j3ou9sra6+Gyt199hqtrIhtKS1WSe6evJkG","password":"h2ye+jSX5k2AZ0RJ9b+EIQzMOoB+dJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5+f0FbS87Z3/dSAjM4qcGuCrwO8z3VO7urfgriUEvonaUKTpqMEm33OzMBC9eShpFCibZoDAgM="}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Etag:
+      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWZlMDVlMWVlNGYyZDBjMDNiNjYxNTBjZDM5MzJjYzdjBjsAVA%3D%3D--3474a9f48c18f642b474c360feba092982c71ad9;
+        path=/; HttpOnly
+      X-Request-Id:
+      - fb719b2e595ad93c8397df1b78881587
+      X-Runtime:
+      - '0.683038'
+      Connection:
+      - close
+      Server:
+      - thin
+    body:
+      encoding: UTF-8
+      string: '{"code":"RCV","message":"Transaction was received successfully, all
+        initial data validation passed","success":true}'
+    http_version: 
+  recorded_at: Wed, 17 Aug 2016 06:55:35 GMT
+recorded_with: VCR 3.0.3

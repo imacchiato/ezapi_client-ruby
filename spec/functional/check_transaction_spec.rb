@@ -2,7 +2,7 @@ require 'spec_helper'
 
 RSpec.describe "#check_transaction" do
 
-  let(:reference_no) { SecureRandom.hex(12) }
+  let(:reference_no) { SecureRandom.hex(10) }
 
   it "checks a transaction", vcr: {record: :once} do
     client_opts = CONFIG.slice(*%i[host username password eks_path prv_path])

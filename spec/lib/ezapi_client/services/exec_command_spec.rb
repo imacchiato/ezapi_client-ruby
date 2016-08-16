@@ -27,6 +27,11 @@ module EZAPIClient
         it "returns the result" do
           expect(result).to be_a(String)
         end
+
+        it "removes trailing newlines" do
+          result = described_class.("ls")
+          expect(result[-1]).to_not eq "\n"
+        end
       end
 
       context "errors" do

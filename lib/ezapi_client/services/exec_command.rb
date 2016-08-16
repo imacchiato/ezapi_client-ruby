@@ -13,7 +13,7 @@ module EZAPIClient
       unless status.success?
         fail(ArgumentError, "Error executing command: #{stderr_str}")
       end
-      stdout_str
+      stdout_str.chomp
     end
 
   end

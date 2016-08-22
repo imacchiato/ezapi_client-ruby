@@ -14,6 +14,7 @@ describe EZAPIClient do
           password: "password",
           eks_path: CONFIG[:eks_path],
           prv_path: CONFIG[:prv_path],
+          host: CONFIG[:host],
         )
 
         expect(client).to be_a EZAPIClient::Client
@@ -21,6 +22,7 @@ describe EZAPIClient do
         expect(client.password).to eq "password"
         expect(client.eks_path).to eq CONFIG[:eks_path]
         expect(client.prv_path).to eq CONFIG[:prv_path]
+        expect(client.host).to eq CONFIG[:host]
       end
     end
 

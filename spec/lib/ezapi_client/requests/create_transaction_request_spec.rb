@@ -10,7 +10,7 @@ module EZAPIClient
     describe "attributes" do
       subject { described_class }
       it { is_expected.to have_attribute(:reference_no, String) }
-      it { is_expected.to have_attribute(:trans_date, Date) }
+      it { is_expected.to have_attribute(:trans_date, DateTime) }
       it { is_expected.to have_attribute(:sender_lastname, String) }
       it { is_expected.to have_attribute(:sender_firstname, String) }
       it { is_expected.to have_attribute(:sender_middle_name, String) }
@@ -62,10 +62,11 @@ module EZAPIClient
     end
 
     describe "#data" do
+      let(:trans_time) { DateTime.now }
       let(:attributes) do
         {
           reference_no: "reference_no",
-          trans_date: "trans_date",
+          trans_date: trans_time,
           sender_lastname: "sender_lastname",
           sender_firstname: "sender_firstname",
           sender_middle_name: "sender_middle_name",
@@ -108,7 +109,9 @@ module EZAPIClient
           eks_path: "eks_path",
           prv_path: "prv_path",
           reference_no: "reference_no",
-          message: attributes,
+          message: attributes.merge(
+            trans_date: trans_time.strftime("%Y-%m-%d %H:%M:%S %z"),
+          ),
         ).and_return("data")
         expect(request.data).to eq "data"
       end

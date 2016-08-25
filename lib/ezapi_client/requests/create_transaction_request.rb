@@ -25,7 +25,7 @@ module EZAPIClient
     }
 
     attribute :reference_no, String
-    attribute :trans_date, Date
+    attribute :trans_date, DateTime
     attribute :sender_lastname, String
     attribute :sender_firstname, String
     attribute :sender_middle_name, String
@@ -70,7 +70,6 @@ module EZAPIClient
     def default_data
       message = %i[
         reference_no
-        trans_date
         sender_lastname
         sender_firstname
         sender_middle_name
@@ -94,6 +93,7 @@ module EZAPIClient
         message1
         message2
       ].each_with_object({}) { |attr, hash| hash[attr] = send(attr) }
+      message[:trans_date] = trans_date.strftime("%Y-%m-%d %H:%M:%S %z")
 
       GenData.(
         username: username,

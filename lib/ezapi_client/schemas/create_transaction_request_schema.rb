@@ -2,7 +2,7 @@ module EZAPIClient
   CreateTransactionRequestSchema = Dry::Validation.Schema(BaseSchema) do
 
     required(:reference_no).filled(:str?, max_size?: 20)
-    required(:trans_date).filled(:date?)
+    required(:trans_date).filled(:date_time?)
     required(:sender_lastname).filled(:str?, max_size?: 40)
     required(:sender_firstname).filled(:str?, max_size?: 40)
     required(:sender_middle_name).maybe(:str?, max_size?: 1)

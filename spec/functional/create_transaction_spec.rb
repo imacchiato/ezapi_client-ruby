@@ -10,7 +10,7 @@ RSpec.describe "#create_transaction" do
 
     response = client.create_transaction(
       reference_no: reference_no,
-      trans_date: Date.today,
+      trans_date: Time.now,
       sender_lastname: "Boghossian",
       sender_firstname: "Peter",
       sender_address1: "Portland",

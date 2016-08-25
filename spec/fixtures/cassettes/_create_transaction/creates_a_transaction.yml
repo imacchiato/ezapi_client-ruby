@@ -511,7 +511,7 @@ http_interactions:
     uri: http://52.88.11.99:8808/sfa/transactions/new_transaction
     body:
       encoding: UTF-8
-      string: '{"username":"AoQWZOTJiCu+iMQA/T3GCx/w3kM=","reference_no":"6efca709d9f9dce29aa0","data":"YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt+O+DucdDM+NSJ0FDEnEnfikoNYC/qBLaC7qmDh+kuge7yjqYaCh0MO0JNd5lPPPHo+m6WgDNMiOLL8jvK4Bn4FgGyUEw2fdCjG6KN/mXwNE2kP1noPSga0yyLd2lXYFuq6xqxG1CcAnKfwUnNznPzY4FFW+Y3LzLdUtx2R9fXoqA78nJvjKQi4wkr+epluGK4gFklgRM7dMnz9sxbCLOOMdUNjAsX+X9Tur2KxkCQgC6378RAspvkvs1trq7pSwl5YQE+WRI0orygeTOCGPAW9ux59nlEg63HNsMwOjxl05T8QXSfq61chlFuIiTIAg/oZSjfdWgCaK29r1SAR7oc0HlZIpRyehaA/vQUtmjpjvbufcwoXagEhRaDc54u4kHGzCkJJlsiYJ1UfleTgwHp7tYBQe739bRL80F40OT/IRjIemegIx+YPagv2HkfZc3q2nbyjsmU5wyiUu1X5cRXBIFgnREx3ci9PE3pzAI3w+bQD7N9hkNT1X2Iu+KJ9IXW0u1Ei6ZDgjdL/Cr9yNfm5zMEjFY9ykJBIPWV1CBWogOzU3EXHEODUFr1SrONpLKlr5Ol3VvZOuk0Pa5ryuPu1DeMErBEUa/WLSFEKIJKM6wfUwgECPuDHyxY5NzAR2GFckMp+xGGQD9GrSa8vttKfMlV2FBl88Ho3tPfOCNCitwoQfe5lKZExN2I9OhzJEFSsfkcmsxaMDwAxRUEzkl9B1hHPgdZ/Ze8hDkqd/fjzY0WF9RSxiaMm6HeZfMitA+HGYIJB9Kq7UiuYjRQfFg1OJJqtK04JOigEjcJlPup5G7KpnT2Jm25KZ6oPL2Pj5WzadiS6BacqOOjJAMetgHxZiKAYgGMi4DPcDpHp+WGeSGi1j3ou9sra6+Gyt199hqtrIhtKS1WSe6evJkG","password":"h2ye+jSX5k2AZ0RJ9b+EIQzMOoB+dJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5+f0FbS87Z3/dSAjM4qcGuCrwO8z3VO7urfgriUEvonaUKTpqMEm33OzMBC9eShpFCibZoDAgM="}'
+      string: '{"username":"AoQWZOTJiCu+iMQA/T3GCx/w3kM=","reference_no":"38f56e3277501e915276","data":"YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt+O+DucdDM+NSJ0FDEnEnfikoNYC/qBLaC7qmDh+kuge7yjqYaCh0MO0JNd5lPPPHo+m6WgDNMiOLL8jvK1qab6gWVT7QFKAal6HsnQZpnv256p7rjJWwD0VIoTLMkWDD/CO6z5a/xmDmemWtWP1i+geY+synuerYX6vmSjQQaORjt0I+cwvSF/veRWDEBx/QTUobpH+cP84lzqkDCz8wbTsHlJlvXfyXn/Q+66Qx3rVjN1S7mt68YJPY1vLr1jT5TH8hLp5Vm1zoX5bhnAqNo0fCOtIrcfXkkCFTt24HBljAC0oDpNXjwzhKoC7KwAOtzKFug2C4uB/wDaz0PLUWAhutfCaOx1qsm2HB+yQKGat+Lo8uK4VOmis4YN70uzZqJRcdmggdB+3bbJkKJKrPbcfVOgy2BK1g8L4if2r2eRqyvcdcr4whisVRBCgx/nhbgs5Q8PpDe5M8UDjiWvfbqz/DtmFhp+B0oMrXRxrHaRXwbpLRglNK9r4yWELlvRw4Z0+P+M5t04vIo8UoRETeQxUTk+FMREeF9BFpwIHUXkFGH0uXpTXqQSYwEB4cf7I2Sb98vf6lzgnGH5prDQQ05zTCK0VlLUJayKx/cH4n0hdbS7USLpkOCN0v8Kv3YjvIyzW/WNRzP8GLhhGd4GxbwiUXylzBE6A/gD3CViRTo5srpih/eSfH9YTtQi36XX7aVpfXb17O67umWEnSd5PVzzPyybGSD7XMgVqnpTaK3kYH11G2x+BPCdvXGU6LEg17bprgbb4Bq47MuY07bnm8I74kJm6kR0opzja2819z0ey4p08zH7y5epPDKrE0To+IgVFx723jR96+LNxaRVCADCegs8J6/57NSeoS9kBoi8tkN4ZBlUhQh8hOF4uzzk0d2lMsAYr2E1MLk5TRpwsnn345khF7A/UWX2S+KIA==","password":"h2ye+jSX5k2AZ0RJ9b+EIQzMOoB+dJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5+f0FbS87Z3/dSAjM4qcGuCrwO8z3VO5iGeP13iaxCdtyKLEiti0OFk/NnS5BD93M0fvoIt23s="}'
     headers:
       Content-Type:
       - application/json
@@ -529,12 +529,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Set-Cookie:
-      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWZlMDVlMWVlNGYyZDBjMDNiNjYxNTBjZDM5MzJjYzdjBjsAVA%3D%3D--3474a9f48c18f642b474c360feba092982c71ad9;
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTc4MTBjZDQ4YzdiOTI0YjVkNzgzZmFiMzlhMmVhN2ZjBjsAVA%3D%3D--5d5ac01033516e562de737a20fbcc3b1213f8338;
         path=/; HttpOnly
       X-Request-Id:
-      - fb719b2e595ad93c8397df1b78881587
+      - ca29cabe451b9e30d1009b82fa5f1dcb
       X-Runtime:
-      - '0.683038'
+      - '0.669436'
       Connection:
       - close
       Server:
@@ -544,5 +544,5 @@ http_interactions:
       string: '{"code":"RCV","message":"Transaction was received successfully, all
         initial data validation passed","success":true}'
     http_version: 
-  recorded_at: Wed, 17 Aug 2016 06:55:35 GMT
+  recorded_at: Thu, 25 Aug 2016 04:09:35 GMT
 recorded_with: VCR 3.0.3

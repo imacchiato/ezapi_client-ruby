@@ -25,7 +25,10 @@ See `spec/functional` for examples.
 ## Development
 
 1. Copy `spec/config.yml.sample` to `spec/config.yml` and fill up with your own details.
-2. `rspec spec`
+2. `docker-compose build`
+3. `docker-compose run app rspec`
+
+Note: you do not necessarily need Docker, but it makes development easier. If you want to work on this without it, then you need Java installed. See `Dockerfile` for clues.
 
 ## Contributing
 

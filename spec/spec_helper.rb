@@ -6,9 +6,16 @@ require "pry-byebug"
 require "virtus-matchers"
 require "vcr"
 require "webmock"
+require "dotenv"
+
+Dotenv.overload(".env", ".env.local")
+
+config_vars = %i[username password host eks_path prv_path]
+CONFIG = config_vars.each_with_object({}) do |var, hash|
+  hash[var] = ENV[var.to_s.upcase]
+end.with_indifferent_access
 
 SPEC_DIR = Pathname.new(File.dirname(__FILE__))
-CONFIG = YAML.load_file(SPEC_DIR.join("config.yml")).with_indifferent_access
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/cassettes'

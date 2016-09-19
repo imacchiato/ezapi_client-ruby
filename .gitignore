@@ -10,3 +10,4 @@
 /spec/fixtures/*.eks
 /spec/fixtures/*.prv
 /spec/config.yml
+/.env.local

@@ -26,7 +26,7 @@ See `spec/functional` for examples.
 
 ## Development
 
-1. Copy `spec/config.yml.sample` to `spec/config.yml` and fill up with your own details.
+1. Create `.env.sample` and override the password (see `.env`). If you do not have access to the password but have your own credentials, then will have to override everything except `HOST`.
 2. `docker-compose build`
 3. `docker-compose run app rspec`
 

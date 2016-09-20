@@ -8,7 +8,7 @@ require "vcr"
 require "webmock"
 require "dotenv"
 
-Dotenv.overload(".env", ".env.local")
+Dotenv.load(".env.local", ".env")
 
 config_vars = %i[username password agent_code host eks_path prv_path]
 CONFIG = config_vars.each_with_object({}) do |var, hash|

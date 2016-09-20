@@ -1,5 +1,7 @@
 # EZAPIClient
 
+[![Build Status](https://travis-ci.org/imacchiato/ezapi_client-ruby.svg?branch=master)](https://travis-ci.org/imacchiato/ezapi_client-ruby)
+
 Ruby wrapper for EasyPadala's API.
 
 ## Installation

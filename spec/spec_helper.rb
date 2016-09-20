@@ -10,7 +10,7 @@ require "dotenv"
 
 Dotenv.overload(".env", ".env.local")
 
-config_vars = %i[username password host eks_path prv_path]
+config_vars = %i[username password agent_code host eks_path prv_path]
 CONFIG = config_vars.each_with_object({}) do |var, hash|
   hash[var] = ENV[var.to_s.upcase]
 end.with_indifferent_access

@@ -2,10 +2,11 @@ require 'spec_helper'
 
 RSpec.describe "#create_transaction" do
 
-  let(:reference_no) { SecureRandom.hex(10) }
+  let(:reference_no) { CONFIG[:agent_code] + SecureRandom.hex(7) }
 
   it "creates a transaction", vcr: {record: :once} do
     client_opts = CONFIG.slice(*%i[host username password eks_path prv_path])
+    puts client_opts
     client = EZAPIClient.new(client_opts)
 
     response = client.create_transaction(
@@ -17,7 +18,7 @@ RSpec.describe "#create_transaction" do
       recipient_lastname: "Harris",
       recipient_firstname: "Sam",
       recipient_address1: "LA",
-      recipient_phone: "+63919929199",
+      recipient_phone: "+639199291099",
       trans_type: "CBA",
       bank_code: "BDO",
       account_no: "100661036243",

@@ -5,7 +5,7 @@ http_interactions:
     uri: http://52.88.11.99:8808/sfa/transactions/new_transaction
     body:
       encoding: UTF-8
-      string: '{"username":"AoQWZOTJiCu+iMQA/T3GCx/w3kM=","reference_no":"e2b51290c4bfb8da7549","data":"YOg2IFBhOA761YbNU66c8VjjprKHQT7IzS7NKNGry2SVNxt+O+DucdDM+NSJ0FDEnEnfikoNYC/qBLaC7qmDh+kuge7yjqYaCh0MO0JNd5lPPPHo+m6WgDNMiOLL8jvK1OM7mDj39F/FufrYWLAu5pfnttsH/URve03la8fQyjf5khMwwnlFPpGgcIOj0flO07HDctUMGWeU0EmIVhEnO8zfmZL8FmAmhQShdTfWfotluGK4gFklgRM7dMnz9sxbCLOOMdUNjAsX+X9Tur2KxkCQgC6378RAspvkvs1trq7pSwl5YQE+WRI0orygeTOCGPAW9ux59nlEg63HNsMwOjxl05T8QXSfq61chlFuIiTIAg/oZSjfdWgCaK29r1SAR7oc0HlZIpRyehaA/vQUtmjpjvbufcwoXagEhRaDc54u4kHGzCkJJlsiYJ1UfleTgwHp7tYBQe739bRL80F40OT/IRjIemegIx+YPagv2HkfZc3q2nbyjsmU5wyiUu1X5cRXBIFgnREx3ci9PE3pzAI3w+bQD7N9hkNT1X2Iu+KJ9IXW0u1Ei6ZDgjdL/Cr9yNfm5zMEjFY9ykJBIPWV1CBWogOzU3EXHEODUFr1SrONpLKlr5Ol3VvZOuk0Pa5ryuPu1DeMErBEUa/WLSFEKIJKM6wfUwgECPuDHyxY5NzAR2GFckMp+xGGQD9GrSa8vttKfMlV2FBl88Ho3tPfOCNCitwoQfe5lKZExN2I9OhzJEFSsfkcmsxaMDwAxRUEzkl9B1hHPgdZ/Ze8hDkqd/fjzY0WF9RSxiaMm6HeZfMitA+HGYIJB9Kq7UiuYjRQfFg1OJJqtK04JOigEjcJlPup5G7KpnT2Jm25KZ6oPL2Pj5WzadiS6BacqOOjJAMetgHxZiKAYgGMi4DPcDpHp+WGeSGi1j3ou9sra6+Gyt199hqtrIhtKS1WSe6evJkG","password":"h2ye+jSX5k2AZ0RJ9b+EIQzMOoB+dJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5+f0FbS87Z3/dSAjM4qcGuCrwO8z3VO1gu/tWyOZz5AUWDU/uFo/a+7xP2Ufz4qJJvJc45qcDs="}'
+      string: '{"username":"cqXN/8DyggKkGkCNa59mI+/cD8o=","reference_no":"RAM91498f269b88c6","data":"6814DWPtFVr7ujpWyFfLksMnmgL7OmE31Btr5pyNQN8kjFI4jPCZj5AkIUt7kJDmvI6If/OmrKxDZyLixk8LEz7+G9hcARBr/7JiG6otckS6RqTWfa5tHeHB8D3aOnvuhZHeaBYJVLqKPb0EzKWjJs/2uyKJwW92DPuUcuWfblTCj1PmiTWiAAj+H3/TGTABFgVSeDW8sxmPGZ3WmYndtEDIOKgkC+9d7anPBVrxAFj2poMTzdFt3DpSUbDAmGVJFn5DDaISHSThTfaxSO5ViUvZdjwCTo/VWtDC5Jx7ZDqaOQIGDRfxQieGq4btTXJL3GnYvk15Oh4xkBIiqHMo+qWQewcT46JG34Sx21Po9anDoKYC2FP6PWsVtffJzCIubv23Kge23/naQ2CpYqSUL02Ol0t7gDIVzKlMhDNlhvzX7l5H0dtAnRR2N78FSeQq32L3uOt34x/Ub4E/wiDkJJbrKycWFx8iUiS+6vu4H1mvcsxzAauaD+kVuMPORRH5peti9rAZuC0LewUs2n2/xyG7nXcnZd5tuXGoUnjGbVrzzJc5bJbFL0JsT7xe9dXTeAi1dKIiBQLTuxRZjWBBuLGIhWQgEIKksKCOG2cpJUN/oUFyW3jB/We4hIxPNbpARtt2kTLAV/S8Wa44MmEzYfC131qB7gXwFuU3resUhJOaVNWzQlMEAO7yfC44PXn+lty9aXM60JlqwjMqoC2v++jSqVu5TUDjP2LZefVQLnAUUPsceVQh0pR7vSPg8PvmnQ/78Jf9t4BcBXyz2MiXNUy9PuAeNBAxBakhYVVXyZTEH+Uw530hRRv60GWq91vN6r+alKOyU1r+XnOf7jLchAHO1vWlJprfI6mCQeGr1ZPY+zLRe8CS6eVmRInMTn2yGbCEBQfmspPgsrUAYnx6ohup1wtviXMs/Q9GDUb93L0JiD2G2SB9/NdXI/9sBjvy6w2N7NtpWZPIGAh2MnRsuQ==","password":"B8bvKMZ8v3HHxBP3qFAFrEbibgCAuA+n5oCMD7A94cdWfH1fa8V9mLbcncTV8gl0f8EbMf/rKVyHm7atYETC/BheJB25NeHHfAyx87O5q0jMgmKET16F0nHJVYku9H5gklGfhZQehwtAEHAgnwkXmKe8OXILT1//X08iTpX2WTM="}'
     headers:
       Content-Type:
       - application/json
@@ -23,12 +23,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Set-Cookie:
-      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTU0MWQwMTlhNTU3ZWMxYTc2NThjMmJmNWM2MDY3ZTFkBjsAVA%3D%3D--003e742f6b8f4ceaac4cc0914d722236e0c870cd;
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTVkMGZkZTdiNTgyMzMzYjQxYTI5NmViNzRlMGQ3YTdmBjsAVA%3D%3D--adc85e5a1c869ca2899df426993184019436ff4e;
         path=/; HttpOnly
       X-Request-Id:
-      - b87544c5681d5a903804173df40a5bfe
+      - dfe7b2bc49a13414df1d7a1fd5f1304f
       X-Runtime:
-      - '0.657130'
+      - '0.623496'
       Connection:
       - close
       Server:
@@ -38,13 +38,13 @@ http_interactions:
       string: '{"code":"RCV","message":"Transaction was received successfully, all
         initial data validation passed","success":true}'
     http_version: 
-  recorded_at: Wed, 17 Aug 2016 07:05:10 GMT
+  recorded_at: Tue, 20 Sep 2016 07:25:05 GMT
 - request:
     method: post
     uri: http://52.88.11.99:8808/sfa/transactions/check_transaction
     body:
       encoding: UTF-8
-      string: '{"username":"AoQWZOTJiCu+iMQA/T3GCx/w3kM=","reference_no":"e2b51290c4bfb8da7549","password":"h2ye+jSX5k2AZ0RJ9b+EIQzMOoB+dJezksRVdrkbsxRAGnJbm/g3Fmfc5feGVTK4kHaX34NSZbOx6mYjS/RBRa5gHlWwchDaZ5+f0FbS87Z3/dSAjM4qcGuCrwO8z3VO1gu/tWyOZz5AUWDU/uFo/a+7xP2Ufz4qJJvJc45qcDs="}'
+      string: '{"username":"cqXN/8DyggKkGkCNa59mI+/cD8o=","reference_no":"RAM91498f269b88c6","password":"B8bvKMZ8v3HHxBP3qFAFrEbibgCAuA+n5oCMD7A94cdWfH1fa8V9mLbcncTV8gl0f8EbMf/rKVyHm7atYETC/BheJB25NeHHfAyx87O5q0jMgmKET16F0nHJVYku9H5gklGfhZQehwtAEHAgnwkXmKe8OXILT1//X08iTpX2WTM="}'
     headers:
       Content-Type:
       - application/json
@@ -62,12 +62,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Set-Cookie:
-      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTEyMTk4ZDllNzIzMDEyNjViOTI4ZDc5ODkxM2M2ZTc5BjsAVA%3D%3D--38f2bb4b7baa6c45be692fd4de37ad9840b5b682;
+      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWJlOTIyNzdkYzgzYzE2MTM3ZTE3OTc4YzEyYTM4NDY4BjsAVA%3D%3D--467890b4e59a40425249453f852c6101020c04e8;
         path=/; HttpOnly
       X-Request-Id:
-      - caac14c0dca7ea6046304c74c3923dff
+      - 3175ebfd68b4f1e48759ff23ce7fa647
       X-Runtime:
-      - '0.348528'
+      - '0.334896'
       Connection:
       - close
       Server:
@@ -76,5 +76,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"code":"PENDING","message":null,"success":true}'
     http_version: 
-  recorded_at: Wed, 17 Aug 2016 07:05:11 GMT
+  recorded_at: Tue, 20 Sep 2016 07:25:06 GMT
 recorded_with: VCR 3.0.3

@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Added
+- Include stdout in the exception raised when ExecCommand fails
+
 ## [0.2.1] - 2016-09-19
 ### Fixed
 - updated jar for special characters fix

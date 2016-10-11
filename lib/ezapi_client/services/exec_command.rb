@@ -11,7 +11,10 @@ module EZAPIClient
     def call
       stdout_str, stderr_str, status = Open3.capture3(command)
       unless status.success?
-        fail(ArgumentError, "Error executing command: #{stderr_str}")
+        fail(
+          ArgumentError,
+          "Error executing command: #{[stdout_str, stderr_str].compact.join("; ")}"
+        )
       end
       stdout_str.chomp
     end

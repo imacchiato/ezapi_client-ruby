@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction
+    uri: https://apitest.easypadala.com/sfa/transactions/new_transaction
     body:
       encoding: UTF-8
-      string: '{"username":"cqXN/8DyggKkGkCNa59mI+/cD8o=","reference_no":"RAM84eea6fb5dd5e6","data":"6814DWPtFVr7ujpWyFfLksMnmgL7OmE31Btr5pyNQN8kjFI4jPCZj5AkIUt7kJDmvI6If/OmrKxDZyLixk8LEz7+G9hcARBr/7JiG6otckS6RqTWfa5tHeHB8D3aOnvu3GI7wKOYiiOKimudSg6Z0v6JOxYb8x5/o7DpFr3ODZ+D96aALS4f4coccUFua3+ZIWNM4tXZfM8rTlal+KVsMkDIOKgkC+9d7anPBVrxAFj2poMTzdFt3DpSUbDAmGVJFn5DDaISHSThTfaxSO5ViUvZdjwCTo/VWtDC5Jx7ZDqaOQIGDRfxQieGq4btTXJL3GnYvk15Oh4xkBIiqHMo+qWQewcT46JG34Sx21Po9anDoKYC2FP6PWsVtffJzCIubv23Kge23/naQ2CpYqSUL02Ol0t7gDIVzKlMhDNlhvzX7l5H0dtAnRR2N78FSeQq32L3uOt34x/Ub4E/wiDkJJbrKycWFx8iUiS+6vu4H1mvcsxzAauaD+kVuMPORRH5peti9rAZuC0LewUs2n2/xyG7nXcnZd5tuXGoUnjGbVrzzJc5bJbFL0JsT7xe9dXTeAi1dKIiBQLTuxRZjWBBuLGIhWQgEIKksKCOG2cpJUPgl8HiLk8dYw9blFnY927xSuVF6ofLY+mojGVsSJvaQ30O32rJxm+tINYn6u4K7+wHQatw4fziUKqXtFnYYK9C+WFYITSkYNeA2eNsdIsB4YV7cQV6V2qF+kHEFv8nb1l7gvdYi/Japqq/rTigJLZ8zYlBKlkSfmfo+C6Ll3i++SbJ97iPeWbuTZczZrNzk6+Ym2coF37MkrZrA0vRLSQgf43IFmaFJyGG/tAJ/7D+OQFsphNwHDWtPo9lmmypDqis1AQO37X+LgjkLYnJS/CRHFYNSqRKY2wz/FGzO86j/zWi2uXDDZ+q7CXyfy0S+JSpsCJUORuaBc+HPozD159mW/6r9WXoM4+wIg3U1kLUog==","password":"B8bvKMZ8v3HHxBP3qFAFrEbibgCAuA+n5oCMD7A94cdWfH1fa8V9mLbcncTV8gl0f8EbMf/rKVyHm7atYETC/BheJB25NeHHfAyx87O5q0jMgmKET16F0nHJVYku9H5gSj0qtWatgMtmR8J4A1LRhhfUMGCckRmObo6dmXPEcDI="}'
+      string: '{"username":"z1uc7CukRHDiz5MalmlbQ2YVBSY=","reference_no":"ACE0baa1f0c96421c","data":"lvZ5aOprP9kfPCshKf8MVhdeTXJLS5d4zb1Lu3dUU7ro8VU+b5utgs/RGcPWAkCqk7gxP+zllJaVZtxtCt0X8YUqnCEmAYkdFlX0OhyJijBQdGru0YTBEEo1JLCbwidR3CSAVnAv4MgYwZCri7Bn9yUo/nd0Ow2fqMggJqkAGmYGemoy9QLnEe5oapP1Y9NQwhb9o5me52+sBgkdlcbNe9kBeo5ZbeAXs5n+7hIP4CMQOgUVP4rcMrMsfyXxpcmR1hw2Ufv5WAOvM3HxQqK/AdChudd0XVYerkUbEQiVTEyROWfPNgx1kNT4ZHhc1CWUe+RCRu6qpTwuow1ttWhF1pQ/gDSF4tRRpmqQUZmC0fSiKGoHf24M9RqPvAeATXblYryC0GONHRYAqJKIXVN2dsQvbPCeTYw54vk88ntgKtrIFKjt/AFuu2zTQJwX6BVSEqeDTF2JokbPR8gtzjWvarPAEcnesxHH6rF3TxX0+5GiWKYele8y1aviAbVjlG+ZTHvfg2WO3RPKRaHLUeUz2zE8bg+Man2BarXKrKunuaonmvc6/5/CulL6G0hqS6vKFYfHkCUp7mljJLfRU4uk6w+eZTKOz9SMCf/ZihYCjc5USW32MOY8rXQYOEwpAN7owXn+tjVEWcsU4fm9McDCPwbq2Hd8VsFSIsNCyj7FcNBupKwbmC9viGvpzz0MtpZ2gqGyFp7bPqJ5+eCCqyLBnccFvB0axMyJDHCDOqDvIPcNaWfy2A3jQJsF3pfzfiEu6MOVAmlTSAPoQyqYUtKROtfYp6dYgRka94I9lI5Oy+3uuuewVvgKFhAIT8FZ72FhEFu/KGiK+9+eh+KavCuGJ4EzBx09cDebQfdxjtMwAiq43Y6awvQJPTitiSHpOkPAp6cldP5CsVHhjqjrLU7ApRFMOqun0EhTMfuMu4cDCqYtEIvrhdEW61+LPY9yMu4bxanW1TbVshUBmJlRs5Y+sg==","password":"64Oair+F2BE++2jJDX1bgjtyUoVBLXZWQQPi7FFUgHM+bbdUhLDv3444FaXDNgp+tlqzVOmEhVaXjcnUZKb+ES43UaXiW7xfC412K++1gVRzkxCTrCYXuQTYa6UvR2pgGmutnH2j/jvL9gHwQ0Th2rJlOO+QVT695KWa6k62CEo="}'
     headers:
       Content-Type:
       - application/json
@@ -14,29 +14,34 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Mon, 04 Sep 2017 10:23:33 GMT
       Content-Type:
       - application/json; charset=utf-8
-      X-Ua-Compatible:
-      - IE=Edge
-      Etag:
-      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
       Cache-Control:
       - max-age=0, private, must-revalidate
-      Set-Cookie:
-      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTc3ZDJmZjYyM2Y1NTYwYzM1OTg0N2E1OGMyZDMwZGM0BjsAVA%3D%3D--8325fe0e7766f70869cc6df2990e41a48916cb07;
-        path=/; HttpOnly
-      X-Request-Id:
-      - e65d3d715733e9e5cc98b3caee212eeb
+      X-Ua-Compatible:
+      - IE=Edge
       X-Runtime:
-      - '0.667775'
-      Connection:
-      - close
-      Server:
-      - thin
+      - '0.600116'
+      X-Request-Id:
+      - f59480b64d0a0aa1cbbad4279cc4a1f9
+      X-Powered-By:
+      - Phusion Passenger 5.0.18
+      Etag:
+      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Status:
+      - 200 OK
     body:
       encoding: UTF-8
       string: '{"code":"RCV","message":"Transaction was received successfully, all
         initial data validation passed","success":true}'
     http_version: 
-  recorded_at: Tue, 20 Sep 2016 07:24:41 GMT
+  recorded_at: Mon, 04 Sep 2017 10:23:33 GMT
 recorded_with: VCR 3.0.3

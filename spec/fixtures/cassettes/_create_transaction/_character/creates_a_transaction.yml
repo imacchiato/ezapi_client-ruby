@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://apitest.easypadala.com/sfa/transactions/new_transaction
+    body:
+      encoding: UTF-8
+      string: '{"username":"z1uc7CukRHDiz5MalmlbQ2YVBSY=","reference_no":"ACEc91dd3e02c31f8","data":"lvZ5aOprP9kfPCshKf8MVhdeTXJLS5d4zb1Lu3dUU7ro8VU+b5utgs/RGcPWAkCqk7gxP+zllJaVZtxtCt0X8YUqnCEmAYkdFlX0OhyJijBQdGru0YTBEEo1JLCbwidR+GvXSO+qPcY9TUcgf0wKcHOQasNsLoVOEYKDvvsorJbWjfcTITnXgza/IniFdm71CiG6K97p2dgGxnf3QOAHq9kBeo5ZbeAXs5n+7hIP4COyMDeKvNmbE/XX/rO3QHWL70x/sRXLdaLwx16EPuqQLODu7BqA1wn44KerKv6nTZ0f3Q77mLd7ghG2bl0lg5rry8r4EoPC/9ZZNbzc+lO2tznCVnJqIje0JXs9myTHrm+hTZNCVnp0zN8gfqdG4gOVoGB0955nC5aezTh2CM6NI1kw+b9XIH/bn8GKyqE68qCo2Cui0YVVD+JW+QvxVmANI0gSPPQIDWrmkG6rFKbD/FdeFLXIz+WUjDCr/ZcHjb8jN63sUrXeCKxPYym4btllyktDVKWBHxDNWE8Im4T0R0RVTjIuw/NtKQkNOto/YyFolXoi9HVDIMLzimV5bHJ8hCHNAVbDH/E5A15MS+1ISnvE09+alNsZZrBkGzzu+AI3bdA3MmMfEAVXTxerTUXAio56A6EVIL/zIpVRmzqLl8YUJt3uRsGiwY3ten9lFBRkD0qEHpDnKIB6kbiEEXCXg/3BV7meIY/UQ4FpT38F54qvIimke5FenzABAUvOEcEjidptxXmy1fYkLm+/vVpKSF3FewYYhxYF1wmcnTOKyHL8Y+rrSdiZlNgLxWUi3Ub/E8qQNM/gC0g6p3gFxHXczrsGUzeGP0QkuZufTLdnTeE3vZFVqxBMk9gd67p+CbuLSw/5+HctR7wn6tINlUW/Y9F8mXZ4IN+VKRlyt8FIgM79CR0MiSA5ree7PmuQgjk13UhTgigts80ruPVRFt1o","password":"64Oair+F2BE++2jJDX1bgjtyUoVBLXZWQQPi7FFUgHM+bbdUhLDv3444FaXDNgp+tlqzVOmEhVaXjcnUZKb+ES43UaXiW7xfC412K++1gVRzkxCTrCYXuQTYa6UvR2pguJ3PHyk1H2B1ORg55ZntQueQXTsE24qaMe93FulKyLo="}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 04 Sep 2017 10:40:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Runtime:
+      - '0.538442'
+      X-Request-Id:
+      - fe1187db17ff9e0d73984dfba6a38699
+      X-Powered-By:
+      - Phusion Passenger 5.0.18
+      Etag:
+      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Status:
+      - 200 OK
+    body:
+      encoding: UTF-8
+      string: '{"code":"RCV","message":"Transaction was received successfully, all
+        initial data validation passed","success":true}'
+    http_version: 
+  recorded_at: Mon, 04 Sep 2017 10:40:17 GMT
+recorded_with: VCR 3.0.3

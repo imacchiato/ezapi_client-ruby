@@ -3,7 +3,7 @@ require 'ezapi_client'
 require "yaml"
 require "pry"
 require "pry-byebug"
-require "virtus-matchers"
+require "virtus/matchers/rspec"
 require "vcr"
 require "webmock"
 require "dotenv"

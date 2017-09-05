@@ -5,6 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Fixed
 - Fix formatting of stdout and stderr during command execution
+- Update ezapi.jar
+- Include special characters functional test
 
 ## [0.3.0] - 2016-10-11
 ### Added

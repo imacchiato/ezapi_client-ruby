@@ -1,4 +1,17 @@
-language: ruby
-rvm:
-  - 2.3.0
-before_install: gem install bundler -v 1.13.1
+sudo: required
+services:
+  - docker
+env:
+  matrix:
+    - DOCKER_COMPOSE_VERSION=1.14.0
+  global:
+    # PASSWORD
+    secure: 4ryzZIG4hx6/9hlkP+Qd+1r0oggmK/SWzX5okcCOib6XhgEGq/zPeMe5GLtvQsyGV0WHwDk7agkrPGrriEnMtrrpWmBSGrBXtQpqp06pQPb5uhei36vbE1Qzzv495GbghV1+CwXMi+cbNSHm2EXfXiG784QlnkU5iMASTJlDluVi0xhAL0zKes/d/Bt8b1XZxXAte+203oobUUsis6sRKvwyQZg0yRvKEjjuL+9r1tC2gA9gGQB9tzf9uyVhrE3ihw5j7gV8OdcXSOuj7WkeeFLwZ7LP7qcsW3GkTOMlRPt2xBYhxXmIDBNUvifmbr+ETPbouebQCq5UmcG0M5tvyBdlGA1LFEwLfYObiNWAKLnB5zsWbCSuClPbRiz1aK+p/qzf/qxPHZmX1sW+QDsya6RbWwLRahYgf1nmK6tKGhe1XnGJfJRlIEp3diFBwMAL2ok8G/rkpIfyFgXIYAmbZYsHFbt1CDVyTC8kp4JVA1s8NI6gnd1KFps4wv5iOHjgspxXaHdd7bF7IRKm7KZO26nbkhwpEl5hBqAlpxMJGg8YK0KOh5fY7p1ysm/wanOw0e3dZHa+OleDAckzzi/4YugNGCFMr5j6+4efv2pGmRz1zE+9BT4UqDTq8P2TfDtmgD5V+SDZq3qdeFl8d+28dzLIHzUwtuL0LawLRZWOTH4=
+before_install:
+  - sudo rm /usr/local/bin/docker-compose
+  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+  - chmod +x docker-compose
+  - sudo mv docker-compose /usr/local/bin
+script:
+  - docker-compose run app bundle
+  - docker-compose run -e PASSWORD app rspec

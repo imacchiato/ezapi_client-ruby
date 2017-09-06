@@ -53,6 +53,26 @@ module EZAPIClient
             to include("#{EZAPIClient::LOG_PROGNAME}: exec me")
         end
       end
+
+      context "log is false" do
+        let(:logger) { Logger.new("tmp/test.log") }
+        let(:generator) do
+          described_class.new(command: "exec me", logger: logger, log: false)
+        end
+
+        before do
+          FileUtils.rm_f "tmp/test.log"
+          FileUtils.mkdir_p "tmp"
+        end
+
+        it "logs to the logger with the progname" do
+          expect(ExecCommand).to receive(:call).with("exec me")
+          generator.()
+
+          expect(File.read("tmp/test.log")).
+            to_not include("#{EZAPIClient::LOG_PROGNAME}: exec me")
+        end
+      end
     end
 
     describe "#call" do

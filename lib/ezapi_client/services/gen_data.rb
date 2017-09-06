@@ -18,7 +18,9 @@ module EZAPIClient
     end
 
     def call
-      logger.info(command) if log
+      if log
+        logger.info(EZAPIClient::LOG_PROGNAME) { command }
+      end
       ExecCommand.(command)
     end
 

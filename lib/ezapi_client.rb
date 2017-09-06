@@ -28,6 +28,7 @@ require "ezapi_client/schemas/check_transaction_request_schema"
 module EZAPIClient
 
   JAR_PATH = File.join(File.dirname(__FILE__), "ezapi_client/bin/ezapi.jar")
+  LOG_PROGNAME = "EZAPIClient"
 
   def self.new(opts)
     client = Client.new(opts)

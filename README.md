@@ -22,6 +22,21 @@ Or install it yourself as:
 
 ## Usage
 
+Initialize:
+
+```ruby
+EZAPIClient.new(
+  host: "https://my.host.com",
+  username: "myusername",
+  password: "mypass",
+  eks_path: "/path/to/eks",
+  prv_path: "/path/to/prv",
+  log: true,
+  logger: Rails.logger,
+)
+
+```
+
 See `spec/functional` for examples.
 
 ## Development

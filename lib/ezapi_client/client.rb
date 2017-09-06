@@ -7,6 +7,8 @@ module EZAPIClient
     attribute :password, String
     attribute :eks_path, String
     attribute :prv_path, String
+    attribute :logger, Object
+    attribute :log, Boolean
 
     def create_transaction(args)
       opts = default_opts.merge(args)

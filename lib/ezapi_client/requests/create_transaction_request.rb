@@ -102,6 +102,8 @@ module EZAPIClient
         prv_path: prv_path,
         reference_no: reference_no,
         message: message,
+        logger: logger,
+        log: log,
       )
     end
 

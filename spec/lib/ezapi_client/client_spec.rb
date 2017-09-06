@@ -10,6 +10,16 @@ module EZAPIClient
       it { is_expected.to have_attribute(:password, String) }
       it { is_expected.to have_attribute(:eks_path, String) }
       it { is_expected.to have_attribute(:prv_path, String) }
+      it { is_expected.to have_attribute(:logger) }
+      it { is_expected.to have_attribute(:log) }
+    end
+
+    describe "#log" do
+      let(:client) { described_class.new }
+
+      it "defaults to `false`" do
+        expect(client).to_not be_log
+      end
     end
 
   end

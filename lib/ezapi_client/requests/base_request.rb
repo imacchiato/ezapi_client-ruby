@@ -9,6 +9,8 @@ module EZAPIClient
     attribute :host, String
     attribute :path, String, lazy: true, default: :default_path
     attribute :endpoint, String, lazy: true, default: :default_endpoint
+    attribute :logger, Object
+    attribute :log, Boolean
 
     def call
       HTTParty.post(endpoint, {

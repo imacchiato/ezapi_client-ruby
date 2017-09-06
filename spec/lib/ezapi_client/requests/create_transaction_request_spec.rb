@@ -91,7 +91,7 @@ module EZAPIClient
           message2: "message2",
         }
       end
-
+      let(:logger) { Logger.new(STDOUT) }
       let(:request) do
         described_class.new(attributes.merge(
           username: "username",
@@ -99,6 +99,8 @@ module EZAPIClient
           eks_path: "eks_path",
           prv_path: "prv_path",
           reference_no: "reference_no",
+          logger: logger,
+          log: true,
         ))
       end
 
@@ -112,6 +114,8 @@ module EZAPIClient
           message: attributes.merge(
             trans_date: trans_time.strftime("%Y-%m-%d %H:%M:%S %z"),
           ),
+          logger: logger,
+          log: true,
         ).and_return("data")
         expect(request.data).to eq "data"
       end

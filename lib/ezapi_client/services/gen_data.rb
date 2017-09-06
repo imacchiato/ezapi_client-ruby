@@ -10,12 +10,15 @@ module EZAPIClient
     attribute :message, Hash
     attribute :json, String, lazy: true, default: :default_json
     attribute :command, String, lazy: true, default: :default_command
+    attribute :logger, Object
+    attribute :log, Boolean
 
     def self.call(attributes)
       self.new(attributes).()
     end
 
     def call
+      logger.info(command) if log
       ExecCommand.(command)
     end
 

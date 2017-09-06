@@ -33,6 +33,19 @@ module EZAPIClient
         expect(generator.command).
           to eq %Q(java -cp #{JAR_PATH} ezpadala.EZdata prv eks uname pass tn1 '{"hi": "there"}')
       end
+
+      context "log is true" do
+        let(:logger) { Logger.new(STDOUT) }
+        let(:generator) do
+          described_class.new(command: "exec me", logger: logger, log: true)
+        end
+
+        it "logs to the logger" do
+          expect(logger).to receive(:info).with("exec me")
+          expect(ExecCommand).to receive(:call).with("exec me")
+          generator.()
+        end
+      end
     end
 
     describe "#call" do

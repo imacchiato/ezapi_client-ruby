@@ -6,7 +6,6 @@ RSpec.describe "#create_transaction" do
 
   it "creates a transaction", vcr: {record: :once} do
     client_opts = CONFIG.slice(*%i[host username password eks_path prv_path])
-    puts client_opts
     client = EZAPIClient.new(client_opts)
 
     response = client.create_transaction(

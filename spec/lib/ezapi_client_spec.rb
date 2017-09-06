@@ -8,6 +8,8 @@ describe EZAPIClient do
 
   describe ".new" do
     context "with complete credentials" do
+      let(:logger) { Logger.new(STDOUT) }
+
       it "instantiates a Client, passing options" do
         client = described_class.new(
           username: "username",
@@ -15,6 +17,8 @@ describe EZAPIClient do
           eks_path: CONFIG[:eks_path],
           prv_path: CONFIG[:prv_path],
           host: CONFIG[:host],
+          logger: logger,
+          log: true,
         )
 
         expect(client).to be_a EZAPIClient::Client
@@ -23,6 +27,8 @@ describe EZAPIClient do
         expect(client.eks_path).to eq CONFIG[:eks_path]
         expect(client.prv_path).to eq CONFIG[:prv_path]
         expect(client.host).to eq CONFIG[:host]
+        expect(client.logger).to eq logger
+        expect(client.log).to be true
       end
     end
 

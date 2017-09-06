@@ -26,8 +26,9 @@ See `spec/functional` for examples.
 
 ## Development
 
-1. Create `.env.sample` and override the password (see `.env`). If you do not have access to the password but have your own credentials, then will have to override everything except `HOST`.
+1. Create `.env.local` and override the password (see `.env`). If you do not have access to the password but have your own credentials, then will have to override everything except `HOST`.
 2. `docker-compose build`
+2. `docker-compose run app bundle`
 3. `docker-compose run app rspec`
 
 Note: you do not necessarily need Docker, but it makes development easier. If you want to work on this without it, then you need Java installed. See `Dockerfile` for clues.

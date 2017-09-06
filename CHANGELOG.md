@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 - Fix formatting of stdout and stderr during command execution
 
+### Added
+- Add logging capabilities
+
 ## [0.3.0] - 2016-10-11
 ### Added
 - Include stdout in the exception raised when ExecCommand fails

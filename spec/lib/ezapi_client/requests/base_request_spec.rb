@@ -12,6 +12,8 @@ module EZAPIClient
       it { is_expected.to have_attribute(:host, String) }
       it { is_expected.to have_attribute(:path, String) }
       it { is_expected.to have_attribute(:endpoint, String) }
+      it { is_expected.to have_attribute(:logger) }
+      it { is_expected.to have_attribute(:log) }
     end
 
     describe "#endpoint" do

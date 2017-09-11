@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: http://52.88.11.99:8808/sfa/transactions/new_transaction
+    uri: https://apitest.easypadala.com/sfa/transactions/new_transaction
     body:
       encoding: UTF-8
-      string: '{"username":"cqXN/8DyggKkGkCNa59mI+/cD8o=","reference_no":"RAM91498f269b88c6","data":"6814DWPtFVr7ujpWyFfLksMnmgL7OmE31Btr5pyNQN8kjFI4jPCZj5AkIUt7kJDmvI6If/OmrKxDZyLixk8LEz7+G9hcARBr/7JiG6otckS6RqTWfa5tHeHB8D3aOnvuhZHeaBYJVLqKPb0EzKWjJs/2uyKJwW92DPuUcuWfblTCj1PmiTWiAAj+H3/TGTABFgVSeDW8sxmPGZ3WmYndtEDIOKgkC+9d7anPBVrxAFj2poMTzdFt3DpSUbDAmGVJFn5DDaISHSThTfaxSO5ViUvZdjwCTo/VWtDC5Jx7ZDqaOQIGDRfxQieGq4btTXJL3GnYvk15Oh4xkBIiqHMo+qWQewcT46JG34Sx21Po9anDoKYC2FP6PWsVtffJzCIubv23Kge23/naQ2CpYqSUL02Ol0t7gDIVzKlMhDNlhvzX7l5H0dtAnRR2N78FSeQq32L3uOt34x/Ub4E/wiDkJJbrKycWFx8iUiS+6vu4H1mvcsxzAauaD+kVuMPORRH5peti9rAZuC0LewUs2n2/xyG7nXcnZd5tuXGoUnjGbVrzzJc5bJbFL0JsT7xe9dXTeAi1dKIiBQLTuxRZjWBBuLGIhWQgEIKksKCOG2cpJUN/oUFyW3jB/We4hIxPNbpARtt2kTLAV/S8Wa44MmEzYfC131qB7gXwFuU3resUhJOaVNWzQlMEAO7yfC44PXn+lty9aXM60JlqwjMqoC2v++jSqVu5TUDjP2LZefVQLnAUUPsceVQh0pR7vSPg8PvmnQ/78Jf9t4BcBXyz2MiXNUy9PuAeNBAxBakhYVVXyZTEH+Uw530hRRv60GWq91vN6r+alKOyU1r+XnOf7jLchAHO1vWlJprfI6mCQeGr1ZPY+zLRe8CS6eVmRInMTn2yGbCEBQfmspPgsrUAYnx6ohup1wtviXMs/Q9GDUb93L0JiD2G2SB9/NdXI/9sBjvy6w2N7NtpWZPIGAh2MnRsuQ==","password":"B8bvKMZ8v3HHxBP3qFAFrEbibgCAuA+n5oCMD7A94cdWfH1fa8V9mLbcncTV8gl0f8EbMf/rKVyHm7atYETC/BheJB25NeHHfAyx87O5q0jMgmKET16F0nHJVYku9H5gklGfhZQehwtAEHAgnwkXmKe8OXILT1//X08iTpX2WTM="}'
+      string: '{"username":"z1uc7CukRHDiz5MalmlbQ2YVBSY=","reference_no":"ACE0628709bb7c6a7","data":"lvZ5aOprP9kfPCshKf8MVhdeTXJLS5d4zb1Lu3dUU7ro8VU+b5utgs/RGcPWAkCqk7gxP+zllJaVZtxtCt0X8YUqnCEmAYkdFlX0OhyJijBQdGru0YTBEEo1JLCbwidRCjf9MvP/cGJfYbORwcoEikB/nKLzVnhCoGmWnhB76zcGemoy9QLnEe5oapP1Y9NQjRHiVxSjYSpAbFC6YM6jWtkBeo5ZbeAXs5n+7hIP4CMQOgUVP4rcMrMsfyXxpcmR1hw2Ufv5WAOvM3HxQqK/AdChudd0XVYerkUbEQiVTEyROWfPNgx1kNT4ZHhc1CWUe+RCRu6qpTwuow1ttWhF1pQ/gDSF4tRRpmqQUZmC0fSiKGoHf24M9RqPvAeATXblYryC0GONHRYAqJKIXVN2dsQvbPCeTYw54vk88ntgKtrIFKjt/AFuu2zTQJwX6BVSEqeDTF2JokbPR8gtzjWvarPAEcnesxHH6rF3TxX0+5GiWKYele8y1aviAbVjlG+ZTHvfg2WO3RPKRaHLUeUz2zE8bg+Man2BarXKrKunuaonmvc6/5/CulL6G0hqS6vKFYfHkCUp7mljJLfRU4uk6w+eZTKOz9SMCf/ZihYCjc6xFRmpWoWoFfJCXymuIBEr0jX5yrUcUnTQ6GIa/FRxLvqp8dUkD2ruRSPc+A1hYC3ESE2sC8qF/h99ujMUfw5UZTFZLpO/WSlQOFqz5n/Xrj6hZ49ld9fmaa2KJp5L5soVZejlMU0dGnBp+YACHo61ckXKz/18nCp7/XXsnsR9J+6notL7lJerGHNdvwDoDSsrsHPxWGnkVRRm7pm1QNvP6pxQbE5frX7ZEMDGuyjnBQKxMtlhwbv7HBTls7jDPMFUiGXEy2qBRehflBzyParpiSf5DURO1KscQ7Jh5pX9iA3xwm/cqsOGdakc5Sj1I2f2w8jJrljsMr1eGtNuttwFhbCPuUNWRtkMV3hx1LENWQ==","password":"64Oair+F2BE++2jJDX1bgjtyUoVBLXZWQQPi7FFUgHM+bbdUhLDv3444FaXDNgp+tlqzVOmEhVaXjcnUZKb+ES43UaXiW7xfC412K++1gVRzkxCTrCYXuQTYa6UvR2pgSkcR6s8I3B2U+XLddRO+eOmaOvs0TpPgTlsFUIhVwAs="}'
     headers:
       Content-Type:
       - application/json
@@ -14,37 +14,42 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Mon, 04 Sep 2017 10:23:28 GMT
       Content-Type:
       - application/json; charset=utf-8
-      X-Ua-Compatible:
-      - IE=Edge
-      Etag:
-      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
       Cache-Control:
       - max-age=0, private, must-revalidate
-      Set-Cookie:
-      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJTVkMGZkZTdiNTgyMzMzYjQxYTI5NmViNzRlMGQ3YTdmBjsAVA%3D%3D--adc85e5a1c869ca2899df426993184019436ff4e;
-        path=/; HttpOnly
-      X-Request-Id:
-      - dfe7b2bc49a13414df1d7a1fd5f1304f
+      X-Ua-Compatible:
+      - IE=Edge
       X-Runtime:
-      - '0.623496'
-      Connection:
-      - close
-      Server:
-      - thin
+      - '0.603127'
+      X-Request-Id:
+      - a1c40c37dc333fd9d559ccb137a44592
+      X-Powered-By:
+      - Phusion Passenger 5.0.18
+      Etag:
+      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Status:
+      - 200 OK
     body:
       encoding: UTF-8
       string: '{"code":"RCV","message":"Transaction was received successfully, all
         initial data validation passed","success":true}'
     http_version: 
-  recorded_at: Tue, 20 Sep 2016 07:25:05 GMT
+  recorded_at: Mon, 04 Sep 2017 10:23:29 GMT
 - request:
     method: post
-    uri: http://52.88.11.99:8808/sfa/transactions/check_transaction
+    uri: https://apitest.easypadala.com/sfa/transactions/check_transaction
     body:
       encoding: UTF-8
-      string: '{"username":"cqXN/8DyggKkGkCNa59mI+/cD8o=","reference_no":"RAM91498f269b88c6","password":"B8bvKMZ8v3HHxBP3qFAFrEbibgCAuA+n5oCMD7A94cdWfH1fa8V9mLbcncTV8gl0f8EbMf/rKVyHm7atYETC/BheJB25NeHHfAyx87O5q0jMgmKET16F0nHJVYku9H5gklGfhZQehwtAEHAgnwkXmKe8OXILT1//X08iTpX2WTM="}'
+      string: '{"username":"z1uc7CukRHDiz5MalmlbQ2YVBSY=","reference_no":"ACE0628709bb7c6a7","password":"64Oair+F2BE++2jJDX1bgjtyUoVBLXZWQQPi7FFUgHM+bbdUhLDv3444FaXDNgp+tlqzVOmEhVaXjcnUZKb+ES43UaXiW7xfC412K++1gVRzkxCTrCYXuQTYa6UvR2pgSkcR6s8I3B2U+XLddRO+eOmaOvs0TpPgTlsFUIhVwAs="}'
     headers:
       Content-Type:
       - application/json
@@ -53,28 +58,33 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Mon, 04 Sep 2017 10:23:30 GMT
       Content-Type:
       - application/json; charset=utf-8
-      X-Ua-Compatible:
-      - IE=Edge
-      Etag:
-      - '"1eb444bff7be284f54b55c5b85f6d956"'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
       Cache-Control:
       - max-age=0, private, must-revalidate
-      Set-Cookie:
-      - _ezapi_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFRkkiJWJlOTIyNzdkYzgzYzE2MTM3ZTE3OTc4YzEyYTM4NDY4BjsAVA%3D%3D--467890b4e59a40425249453f852c6101020c04e8;
-        path=/; HttpOnly
-      X-Request-Id:
-      - 3175ebfd68b4f1e48759ff23ce7fa647
+      X-Ua-Compatible:
+      - IE=Edge
       X-Runtime:
-      - '0.334896'
-      Connection:
-      - close
-      Server:
-      - thin
+      - '0.355918'
+      X-Request-Id:
+      - bbe27746d4d845bd48a2c7fa4e858b5e
+      X-Powered-By:
+      - Phusion Passenger 5.0.18
+      Etag:
+      - '"4448ba07080c8f3bb89fe2c3f9003e77"'
+      Status:
+      - 200 OK
     body:
       encoding: UTF-8
-      string: '{"code":"PENDING","message":null,"success":true}'
+      string: '{"code":"PENDING","message":null,"success":true,"date_processed":null,"date_delivered":null}'
     http_version: 
-  recorded_at: Tue, 20 Sep 2016 07:25:06 GMT
+  recorded_at: Mon, 04 Sep 2017 10:23:30 GMT
 recorded_with: VCR 3.0.3

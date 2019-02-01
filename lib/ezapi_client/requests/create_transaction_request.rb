@@ -24,8 +24,7 @@ module EZAPIClient
       door_to_door: %w(DCD DCC DJP DMP DSC DRD),
     }.with_indifferent_access.freeze
 
-    TRANS_TYPES_WITH_ACCOUNT_NUMBER =
-      (TRANS_TYPES.keys - %w(OAB OAR CBA CCC)).freeze
+    TRANS_TYPES_WITH_ACCOUNT_NUMBER = %w(OAB OAR CBA CCC).freeze
     TRANS_TYPES_WITHOUT_ACCOUNT_NUMBER =
       (TRANS_TYPES.keys - TRANS_TYPES_WITH_ACCOUNT_NUMBER).freeze
 

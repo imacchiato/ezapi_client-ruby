@@ -1,6 +1,6 @@
 # EZAPIClient
 
-[![Build Status](https://travis-ci.org/imacchiato/ezapi_client-ruby.svg?branch=master)](https://travis-ci.org/imacchiato/ezapi_client-ruby)
+[![Build Status](https://travis-ci.org/bloom-solutions/ezapi_client-ruby.svg?branch=master)](https://travis-ci.org/bloom-solutions/ezapi_client-ruby)
 
 Ruby wrapper for EasyPadala's API.
 
@@ -50,7 +50,7 @@ Note: you do not necessarily need Docker, but it makes development easier. If yo
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/imacchiato/ezapi_client-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/bloom-solutions/ezapi_client-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

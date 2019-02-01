@@ -39,4 +39,48 @@ http_interactions:
         initial data validation passed","success":true}'
     http_version: 
   recorded_at: Tue, 20 Sep 2016 07:24:41 GMT
+- request:
+    method: post
+    uri: https://apitest.easypadala.com/sfa/transactions/new_transaction
+    body:
+      encoding: UTF-8
+      string: '{"username":"z1uc7CukRHDiz5MalmlbQ2YVBSY=","reference_no":"ACE5c7316595543a9","data":"lvZ5aOprP9kfPCshKf8MVhdeTXJLS5d4zb1Lu3dUU7ro8VU+b5utgs/RGcPWAkCqk7gxP+zllJaVZtxtCt0X8YUqnCEmAYkdFlX0OhyJijBQdGru0YTBEEo1JLCbwidR6ZHPjQussYa0qF3fC5S8+65brioI1Zw0seQfiKRniL5yDH2wIPv6zHioLo9q7NOCcDzRX0eYECDihS1bgiVfmtkBeo5ZbeAXs5n+7hIP4CMQOgUVP4rcMrMsfyXxpcmR1hw2Ufv5WAOvM3HxQqK/AdChudd0XVYerkUbEQiVTEyROWfPNgx1kNT4ZHhc1CWUe+RCRu6qpTwuow1ttWhF1pQ/gDSF4tRRpmqQUZmC0fSiKGoHf24M9RqPvAeATXblYryC0GONHRYAqJKIXVN2dsQvbPCeTYw54vk88ntgKtrIFKjt/AFuu2zTQJwX6BVSEqeDTF2JokbPR8gtzjWvarPAEcnesxHH6rF3TxX0+5GiWKYele8y1aviAbVjlG+ZTHvfg2WO3RPKRaHLUeUz2zE8bg+Man2BarXKrKunuaonmvc6/5/CulL6G0hqS6vKFYfHkCUp7mljJLfRU4uk6w+eZTKOz9SMCf/ZihYCjc5USW32MOY8rXQYOEwpAN7owXn+tjVEWcsU4fm9McDCPwbq2Hd8VsFSIsNCyj7FcNBupKwbmC9viGvpzz0MtpZ2gqGyFp7bPqJ5+eCCqyLBnccFvB0axMyJDHCDOqDvIPcNaWfy2A3jQJsF3pfzfiEu6MOVAmlTSAPoQyqYUtKROtfYp6dYgRka94I9lI5Oy+3uuuewVvgKFhAIT8FZ72FhEFu/KGiK+9+eh+KavCuGJ4EzBx09cDebQfdxjtMwAiq43Y6awvQJPTitiSHpOkPAp6cldP5CsVHhjqjrLU7ApX9oBe2pyIuCGxbxsyB4XnEFDBbVyndy79GlRxZt+aOUxanW1TbVshUBmJlRs5Y+sg==","password":"64Oair+F2BE++2jJDX1bgjtyUoVBLXZWQQPi7FFUgHM+bbdUhLDv3444FaXDNgp+tlqzVOmEhVaXjcnUZKb+ES43UaXiW7xfC412K++1gVRzkxCTrCYXuQTYa6UvR2pgMwotdq1HksWC8MpFaUypebbEfYBNESTwaGd6InOpOAg="}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Feb 2019 13:30:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Runtime:
+      - '0.551312'
+      X-Request-Id:
+      - 9e63c9b7f560b57cb6085646a5824e36
+      X-Powered-By:
+      - Phusion Passenger 5.0.18
+      Etag:
+      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Status:
+      - 200 OK
+    body:
+      encoding: UTF-8
+      string: '{"code":"RCV","message":"Transaction was received successfully, all
+        initial data validation passed","success":true}'
+    http_version: 
+  recorded_at: Fri, 01 Feb 2019 13:30:34 GMT
 recorded_with: VCR 3.0.3

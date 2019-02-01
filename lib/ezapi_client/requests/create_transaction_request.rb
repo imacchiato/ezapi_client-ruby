@@ -18,11 +18,16 @@ module EZAPIClient
       "PCA" => "Pickup Cash @ Anywhere",
       "PML" => "Pickup Cash @ MLhullier Kwarta Padala",
       "PCL" => "Pickup Cash @ Cebuana Lhullier",
-    }
+    }.freeze
 
     TRANS_TYPE_CATEGORIES = {
       door_to_door: %w(DCD DCC DJP DMP DSC DRD),
-    }
+    }.with_indifferent_access.freeze
+
+    TRANS_TYPES_WITH_ACCOUNT_NUMBER =
+      (TRANS_TYPES.keys - %w(OAB OAR CBA CCC)).freeze
+    TRANS_TYPES_WITHOUT_ACCOUNT_NUMBER =
+      (TRANS_TYPES.keys - TRANS_TYPES_WITH_ACCOUNT_NUMBER).freeze
 
     attribute :reference_no, String
     attribute :trans_date, DateTime
@@ -87,13 +92,15 @@ module EZAPIClient
         trans_type
         bank_code
         branch_name
-        account_no
         landed_currency
         landed_amount
         message1
         message2
       ].each_with_object({}) { |attr, hash| hash[attr] = send(attr) }
       message[:trans_date] = trans_date.strftime("%Y-%m-%d %H:%M:%S %z")
+      if TRANS_TYPES_WITH_ACCOUNT_NUMBER.include?(trans_type)
+        message[:account_no] = account_no
+      end
 
       GenData.(
         username: username,

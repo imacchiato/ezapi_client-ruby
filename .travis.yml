@@ -1,6 +1,8 @@
 sudo: required
 services:
   - docker
+rvm:
+- 2.5.1
 env:
   matrix:
     - DOCKER_COMPOSE_VERSION=1.14.0

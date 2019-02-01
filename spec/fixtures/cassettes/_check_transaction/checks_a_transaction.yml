@@ -77,4 +77,91 @@ http_interactions:
       string: '{"code":"PENDING","message":null,"success":true}'
     http_version: 
   recorded_at: Tue, 20 Sep 2016 07:25:06 GMT
+- request:
+    method: post
+    uri: https://apitest.easypadala.com/sfa/transactions/new_transaction
+    body:
+      encoding: UTF-8
+      string: '{"username":"z1uc7CukRHDiz5MalmlbQ2YVBSY=","reference_no":"ACE965e3b5d137987","data":"lvZ5aOprP9kfPCshKf8MVhdeTXJLS5d4zb1Lu3dUU7ro8VU+b5utgs/RGcPWAkCqk7gxP+zllJaVZtxtCt0X8YUqnCEmAYkdFlX0OhyJijBQdGru0YTBEEo1JLCbwidRY81CGSsjWBdr15f25pPFzRUW/tlHf04jEO6/k2d+gwJfgnCD1SsdEpQ4N0PGd3RXA8r7SyP36fV2Pfbx9teL19kBeo5ZbeAXs5n+7hIP4CMQOgUVP4rcMrMsfyXxpcmR1hw2Ufv5WAOvM3HxQqK/AdChudd0XVYerkUbEQiVTEyROWfPNgx1kNT4ZHhc1CWUe+RCRu6qpTwuow1ttWhF1pQ/gDSF4tRRpmqQUZmC0fSiKGoHf24M9RqPvAeATXblYryC0GONHRYAqJKIXVN2dsQvbPCeTYw54vk88ntgKtrIFKjt/AFuu2zTQJwX6BVSEqeDTF2JokbPR8gtzjWvarPAEcnesxHH6rF3TxX0+5GiWKYele8y1aviAbVjlG+ZTHvfg2WO3RPKRaHLUeUz2zE8bg+Man2BarXKrKunuaonmvc6/5/CulL6G0hqS6vKFYfHkCUp7mljJLfRU4uk6w+eZTKOz9SMCf/ZihYCjc6xFRmpWoWoFfJCXymuIBEr0jX5yrUcUnTQ6GIa/FRxLvqp8dUkD2ruRSPc+A1hYC3ESE2sC8qF/h99ujMUfw5UZTFZLpO/WSlQOFqz5n/Xrj6hZ49ld9fmaa2KJp5L5soVZejlMU0dGnBp+YACHo61ckXKz/18nCp7/XXsnsR9J+6notL7lJerGHNdvwDoDSsrsHPxWGnkVRRm7pm1QNvP6pxQbE5frX7ZEMDGuyjnBQKxMtlhwbv7HBTls7jDPMFUiGXEy2qBRehflBzyParpiSf5DURO1KscQ7Jh5pX9iOxzvCTDqmIl1ciRANqH96D2w8jJrljsMr1eGtNuttwFhbCPuUNWRtkMV3hx1LENWQ==","password":"64Oair+F2BE++2jJDX1bgjtyUoVBLXZWQQPi7FFUgHM+bbdUhLDv3444FaXDNgp+tlqzVOmEhVaXjcnUZKb+ES43UaXiW7xfC412K++1gVRzkxCTrCYXuQTYa6UvR2pgtWTfiLHM4iosFatv8V144LpQmWMjoyYk2RKK8x0HUiE="}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Feb 2019 13:31:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Runtime:
+      - '0.582339'
+      X-Request-Id:
+      - 057003ac3211a9a932fba67aee8a4d69
+      X-Powered-By:
+      - Phusion Passenger 5.0.18
+      Etag:
+      - '"2f935d5aa10bf3374297348cd51bc807"'
+      Status:
+      - 200 OK
+    body:
+      encoding: UTF-8
+      string: '{"code":"RCV","message":"Transaction was received successfully, all
+        initial data validation passed","success":true}'
+    http_version: 
+  recorded_at: Fri, 01 Feb 2019 13:31:07 GMT
+- request:
+    method: post
+    uri: https://apitest.easypadala.com/sfa/transactions/check_transaction
+    body:
+      encoding: UTF-8
+      string: '{"username":"z1uc7CukRHDiz5MalmlbQ2YVBSY=","reference_no":"ACE965e3b5d137987","password":"64Oair+F2BE++2jJDX1bgjtyUoVBLXZWQQPi7FFUgHM+bbdUhLDv3444FaXDNgp+tlqzVOmEhVaXjcnUZKb+ES43UaXiW7xfC412K++1gVRzkxCTrCYXuQTYa6UvR2pgtWTfiLHM4iosFatv8V144LpQmWMjoyYk2RKK8x0HUiE="}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Feb 2019 13:31:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Runtime:
+      - '0.327357'
+      X-Request-Id:
+      - 171bd208b7af85b58e9632643b0ed9b5
+      X-Powered-By:
+      - Phusion Passenger 5.0.18
+      Etag:
+      - '"4448ba07080c8f3bb89fe2c3f9003e77"'
+      Status:
+      - 200 OK
+    body:
+      encoding: UTF-8
+      string: '{"code":"PENDING","message":null,"success":true,"date_processed":null,"date_delivered":null}'
+    http_version: 
+  recorded_at: Fri, 01 Feb 2019 13:31:08 GMT
 recorded_with: VCR 3.0.3

@@ -36,6 +36,9 @@ module EZAPIClient
       it { is_expected.to have_attribute(:data, String) }
     end
 
+    describe "#body" do
+    end
+
     describe "#branch_name" do
       let(:request) do
         described_class.new(trans_type: trans_type, bank_code: bank_code)
@@ -81,7 +84,7 @@ module EZAPIClient
           recipient_phone: "recipient_phone",
           recipient_gender: "recipient_gender",
           recipient_birthday: "recipient_birthday",
-          trans_type: "trans_type",
+          trans_type: trans_type,
           bank_code: "bank_code",
           branch_name: "branch_name",
           account_no: "account_no",
@@ -104,20 +107,54 @@ module EZAPIClient
         ))
       end
 
-      it "generates data from the attributes" do
-        expect(GenData).to receive(:call).with(
-          username: "username",
-          password: "password",
-          eks_path: "eks_path",
-          prv_path: "prv_path",
-          reference_no: "reference_no",
-          message: attributes.merge(
+      context "trans_type requires an account_no" do
+        let(:trans_type) do
+          described_class::TRANS_TYPES_WITH_ACCOUNT_NUMBER.sample
+        end
+        let(:message) do
+          attributes.merge(
             trans_date: trans_time.strftime("%Y-%m-%d %H:%M:%S %z"),
-          ),
-          logger: logger,
-          log: true,
-        ).and_return("data")
-        expect(request.data).to eq "data"
+          )
+        end
+
+        it "generates data from the attributes" do
+          expect(GenData).to receive(:call).with(
+            username: "username",
+            password: "password",
+            eks_path: "eks_path",
+            prv_path: "prv_path",
+            reference_no: "reference_no",
+            message: message,
+            logger: logger,
+            log: true,
+          ).and_return("data")
+          expect(request.data).to eq "data"
+        end
+      end
+
+      context "trans_type is does not require an account_no" do
+        let(:trans_type) do
+          described_class::TRANS_TYPES_WITHOUT_ACCOUNT_NUMBER.sample
+        end
+        let(:message) do
+          attributes.merge(
+            trans_date: trans_time.strftime("%Y-%m-%d %H:%M:%S %z"),
+          ).except(:account_no)
+        end
+
+        it "excludes `account_no`" do
+          expect(GenData).to receive(:call).with(
+            username: "username",
+            password: "password",
+            eks_path: "eks_path",
+            prv_path: "prv_path",
+            reference_no: "reference_no",
+            message: message,
+            logger: logger,
+            log: true,
+          ).and_return("data")
+          expect(request.data).to eq "data"
+        end
       end
     end
 

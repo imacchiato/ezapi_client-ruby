@@ -1,14 +1,12 @@
 sudo: required
 services:
   - docker
-rvm:
-- 2.5.1
 env:
   matrix:
     - DOCKER_COMPOSE_VERSION=1.14.0
   global:
     # PASSWORD
-    secure: 4ryzZIG4hx6/9hlkP+Qd+1r0oggmK/SWzX5okcCOib6XhgEGq/zPeMe5GLtvQsyGV0WHwDk7agkrPGrriEnMtrrpWmBSGrBXtQpqp06pQPb5uhei36vbE1Qzzv495GbghV1+CwXMi+cbNSHm2EXfXiG784QlnkU5iMASTJlDluVi0xhAL0zKes/d/Bt8b1XZxXAte+203oobUUsis6sRKvwyQZg0yRvKEjjuL+9r1tC2gA9gGQB9tzf9uyVhrE3ihw5j7gV8OdcXSOuj7WkeeFLwZ7LP7qcsW3GkTOMlRPt2xBYhxXmIDBNUvifmbr+ETPbouebQCq5UmcG0M5tvyBdlGA1LFEwLfYObiNWAKLnB5zsWbCSuClPbRiz1aK+p/qzf/qxPHZmX1sW+QDsya6RbWwLRahYgf1nmK6tKGhe1XnGJfJRlIEp3diFBwMAL2ok8G/rkpIfyFgXIYAmbZYsHFbt1CDVyTC8kp4JVA1s8NI6gnd1KFps4wv5iOHjgspxXaHdd7bF7IRKm7KZO26nbkhwpEl5hBqAlpxMJGg8YK0KOh5fY7p1ysm/wanOw0e3dZHa+OleDAckzzi/4YugNGCFMr5j6+4efv2pGmRz1zE+9BT4UqDTq8P2TfDtmgD5V+SDZq3qdeFl8d+28dzLIHzUwtuL0LawLRZWOTH4=
+    - secure: NM4unx0H2iEVdzJrsYgZzXfBXNDkB34nHpU94h+2QjMiQwWeJ5NVOwD2ISrbOc97SCyJbMgJTSYh2E/qotoTVG5yK/6FPnDy542UawLWrFixBhFR0GreSqbJkdZfaTNZ3CBa9Tc+cOmDbdIIh2bzZkrCExxHb5ngOR9yxUQ85f7hYshllrls+ZdL5qphWUpOLGGM6URYBi6P0LaGgkxK6ZQz/W/YS0sk8054y3fyebMu4+J4Ua5aGLBjOs9vB3BVkTmYxQGte93Oi9Fx4/W6/9T0Byyz/kReutxpbbq/e1UEjD7JE7jTtnEIyUzNq37DQixDs0n/3B3r7Ms2s9EgLT0wF0ZNd5CcFydzwCE710/zPG6il17tpeS8wrjpaAVUV4sxWezM52HdARUmWKPJDvzqEskW+QuHqme+JNh4F3/DgltAowl1ssu7oMfdBhCZAgFzPBOwz+5RJp6GaErVhDLw6qgTeeKI/tWAPyUZldA2XjpMMcBsNevwOfDjkcN6aCT2a6c/BGV3yj2XudbdswDkTbHPZMnsQ7GTBHXwUfM1tNdV0cFgZpGxDFLeHTP+W/JYLaMI+cXzpNvfenGldt4xznjHHGjzKvxO+cwUWAjA9KK9FpMyND5jOr7T+e8+OlmH7sX+Oz99+qvQUz2NOyUUIJi+aFa+ImM/CblqdEg=
 before_install:
   - sudo rm /usr/local/bin/docker-compose
   - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose

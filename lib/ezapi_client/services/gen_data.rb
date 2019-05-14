@@ -36,7 +36,7 @@ module EZAPIClient
         username,
         password,
         reference_no,
-        "'#{json}'",
+        "'#{Shellwords.escape(json)}'",
       ].join(" ")
     end
 

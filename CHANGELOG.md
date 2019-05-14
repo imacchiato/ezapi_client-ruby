@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.2] - 2019-05-14
+### Fixed
+- Shell command to java blows up when sender/recipient name or address includes `'`
+
 ## [1.0.1] - 2019-02-01
 ### Fixed
 - Fixed list of transaction types that need account numbers

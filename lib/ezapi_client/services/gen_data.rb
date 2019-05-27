@@ -36,13 +36,13 @@ module EZAPIClient
         username,
         password,
         reference_no,
-        "'#{json}'",
+        %Q('#{json}'),
       ].join(" ")
     end
 
     def default_json
       message.each_with_object({}) do |(key, value), hash|
-        hash[key.to_s.camelcase(:lower)] = Shellwords.escape(value)
+        hash[key.to_s.camelcase(:lower)] = value
       end.to_json
     end
 

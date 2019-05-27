@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Added
+- Response `#raw_body` to access the raw, unparsed body directly
+
 ## [1.0.3] - 2019-05-27
 ### Fixed
 - EZAPI server couldn't parse escaped JSON; escape values instead of whole JSON instead

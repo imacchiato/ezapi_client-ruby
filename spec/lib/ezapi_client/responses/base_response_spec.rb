@@ -6,6 +6,7 @@ module EZAPIClient
     describe "attributes" do
       subject { described_class }
       it { is_expected.to have_attribute(:raw_response) }
+      it { is_expected.to have_attribute(:raw_body, String) }
       it { is_expected.to have_attribute(:response_body) }
       it { is_expected.to have_attribute(:success) }
       it { is_expected.to have_attribute(:code, String) }
@@ -13,28 +14,30 @@ module EZAPIClient
     end
 
     describe "#response_body" do
-      let(:response) { described_class.new(raw_response: raw_response) }
-      let(:response_body) { response.response_body }
+      let(:response) { described_class.new(raw_body: raw_body) }
+      subject(:response_body) { response.response_body }
 
       context "body is a proper JSON string" do
-        let(:raw_response) do
-          instance_double(HTTParty::Response, body: '{"hi": "there"}')
-        end
+        let(:raw_body) { '{"hi": "there"}' }
 
-        it "is the hashified body of #raw_response" do
+        it "is the hashified body of #raw_body" do
           expect(response_body).to eq("hi" => "there")
           expect(response_body[:hi]).to eq "there"
         end
       end
 
-      context "body is not a proper JSON string" do
-        let(:raw_response) do
-          instance_double(HTTParty::Response, body: '')
-        end
+      context "raw_body is not a proper JSON string" do
+        let(:raw_body) { '' }
+        it { is_expected.to be_nil }
+      end
+    end
 
-        it "is the hashified body of #raw_response" do
-          expect(response_body).to be_nil
-        end
+    context "#raw_body" do
+      let(:response) { described_class.new(raw_response: raw_response) }
+      let(:raw_response) { instance_double(HTTParty::Response, body: '') }
+
+      it "is the raw_response's body" do
+        expect(response.raw_body).to eq ''
       end
     end
 

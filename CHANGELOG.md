@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Fixed
+- No longer escape JSON values
+
 ## [1.1.0] - 2019-05-27
 ### Added
 - Response `#raw_body` to access the raw, unparsed body directly

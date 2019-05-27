@@ -26,6 +26,16 @@ module EZAPIClient
           expect(response_body[:hi]).to eq "there"
         end
       end
+
+      context "body is not a proper JSON string" do
+        let(:raw_response) do
+          instance_double(HTTParty::Response, body: '')
+        end
+
+        it "is the hashified body of #raw_response" do
+          expect(response_body).to be_nil
+        end
+      end
     end
 
     describe "#success" do

@@ -19,6 +19,8 @@ module EZAPIClient
 
     def default_response_body
       JSON.parse(raw_response.body)
+    rescue JSON::ParserError
+      nil
     end
 
     def default_code

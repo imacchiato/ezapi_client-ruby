@@ -1,4 +1,4 @@
-FROM ruby:2.6.3
+FROM ruby:2.5.3
 
 RUN apt-get update -qq
 RUN apt-get upgrade -y

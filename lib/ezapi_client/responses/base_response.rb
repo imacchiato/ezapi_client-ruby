@@ -3,6 +3,7 @@ module EZAPIClient
 
     include Virtus.model
     attribute :raw_response, Object
+    attribute :raw_body, String, lazy: true, default: :default_raw_body
     attribute(:response_body, IndifferentHash, {
       lazy: true,
       default: :default_response_body,
@@ -18,8 +19,12 @@ module EZAPIClient
       response_body[:success]
     end
 
+    def default_raw_body
+      raw_response.body
+    end
+
     def default_response_body
-      JSON.parse(raw_response.body)
+      JSON.parse(raw_body)
     rescue JSON::ParserError
       nil
     end

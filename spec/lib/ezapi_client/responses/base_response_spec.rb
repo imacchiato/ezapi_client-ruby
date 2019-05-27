@@ -59,20 +59,43 @@ module EZAPIClient
     end
 
     describe "#code" do
-      let(:response) { described_class.new(response_body: {code: "IRP"}) }
+      let(:response) { described_class.new(response_body: response_body) }
 
-      it "defaults to #response_body's code" do
-        expect(response.code).to eq "IRP"
+      context "response_body has `code`" do
+        let(:response_body) { {code: "IRP"} }
+        it "defaults to #response_body's code" do
+          expect(response.code).to eq "IRP"
+        end
+      end
+
+      context "response_body is nil" do
+        let(:response_body) { nil }
+
+        it "defaults to #response_body's code" do
+          expect(response.code).to be_nil
+        end
       end
     end
 
     describe "#message" do
       let(:response) do
-        described_class.new(response_body: {message: "Missing or invalid..."})
+        described_class.new(response_body: response_body)
       end
 
-      it "defaults to #response_body's message" do
-        expect(response.message).to eq "Missing or invalid..."
+      context "response_body has `message`" do
+        let(:response_body) { {message: "Missing or invalid..."} }
+
+        it "defaults to #response_body's message" do
+          expect(response.message).to eq "Missing or invalid..."
+        end
+      end
+
+      context "response_body is nil" do
+        let(:response_body) { {} }
+
+        it "defaults to nil" do
+          expect(response.message).to be_nil
+        end
       end
     end
 

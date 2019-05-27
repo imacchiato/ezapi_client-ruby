@@ -14,6 +14,7 @@ module EZAPIClient
     private
 
     def default_success
+      return false if response_body.nil?
       response_body[:success]
     end
 

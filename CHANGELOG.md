@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Fixed
 - EZAPI server couldn't parse escaped JSON; escape values instead of whole JSON instead
+- Response `#success` is false if response is not valid JSON
 
 ## [1.0.2] - 2019-05-14
 ### Fixed

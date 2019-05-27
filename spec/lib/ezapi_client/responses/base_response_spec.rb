@@ -39,7 +39,7 @@ module EZAPIClient
     end
 
     describe "#success" do
-      let(:response) { described_class.new(response_body: response_body) }
+      subject(:response) { described_class.new(response_body: response_body) }
 
       context "response_body is a hash" do
         let(:response_body) { {success: true} }
@@ -47,6 +47,11 @@ module EZAPIClient
         it "defaults to #response_body's success" do
           expect(response.success).to be true
         end
+      end
+
+      context "response_body is nil" do
+        let(:response_body) { nil }
+        it { is_expected.to_not be_success }
       end
     end
 

@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Response `#raw_body` to access the raw, unparsed body directly
 
+### Fixed
+- BaseResponse #code and #message are nil if #response_body is nil
+
 ## [1.0.3] - 2019-05-27
 ### Fixed
 - EZAPI server couldn't parse escaped JSON; escape values instead of whole JSON instead

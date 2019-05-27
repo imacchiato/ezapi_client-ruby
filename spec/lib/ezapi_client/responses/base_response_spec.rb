@@ -67,6 +67,14 @@ module EZAPIClient
           expect(response.code).to eq "IRP"
         end
       end
+
+      context "response_body is nil" do
+        let(:response_body) { nil }
+
+        it "defaults to #response_body's code" do
+          expect(response.code).to be_nil
+        end
+      end
     end
 
     describe "#message" do
@@ -79,6 +87,14 @@ module EZAPIClient
 
         it "defaults to #response_body's message" do
           expect(response.message).to eq "Missing or invalid..."
+        end
+      end
+
+      context "response_body is nil" do
+        let(:response_body) { {} }
+
+        it "defaults to nil" do
+          expect(response.message).to be_nil
         end
       end
     end

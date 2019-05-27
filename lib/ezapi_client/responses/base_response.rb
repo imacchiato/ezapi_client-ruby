@@ -30,10 +30,12 @@ module EZAPIClient
     end
 
     def default_code
+      return nil if response_body.nil?
       response_body[:code]
     end
 
     def default_message
+      return nil if response_body.nil?
       response_body[:message]
     end
 

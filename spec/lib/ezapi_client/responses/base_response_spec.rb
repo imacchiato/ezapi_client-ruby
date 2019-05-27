@@ -13,23 +13,45 @@ module EZAPIClient
     end
 
     describe "#response_body" do
-      let(:raw_response) do
-        instance_double(HTTParty::Response, body: '{"hi": "there"}')
-      end
       let(:response) { described_class.new(raw_response: raw_response) }
       let(:response_body) { response.response_body }
 
-      it "is the hashified body of #raw_response" do
-        expect(response_body).to eq("hi" => "there")
-        expect(response_body[:hi]).to eq "there"
+      context "body is a proper JSON string" do
+        let(:raw_response) do
+          instance_double(HTTParty::Response, body: '{"hi": "there"}')
+        end
+
+        it "is the hashified body of #raw_response" do
+          expect(response_body).to eq("hi" => "there")
+          expect(response_body[:hi]).to eq "there"
+        end
+      end
+
+      context "body is not a proper JSON string" do
+        let(:raw_response) do
+          instance_double(HTTParty::Response, body: '')
+        end
+
+        it "is the hashified body of #raw_response" do
+          expect(response_body).to be_nil
+        end
       end
     end
 
     describe "#success" do
-      let(:response) { described_class.new(response_body: {success: true}) }
+      subject(:response) { described_class.new(response_body: response_body) }
 
-      it "defaults to #response_body's success" do
-        expect(response.success).to be true
+      context "response_body is a hash" do
+        let(:response_body) { {success: true} }
+
+        it "defaults to #response_body's success" do
+          expect(response.success).to be true
+        end
+      end
+
+      context "response_body is nil" do
+        let(:response_body) { nil }
+        it { is_expected.to_not be_success }
       end
     end
 

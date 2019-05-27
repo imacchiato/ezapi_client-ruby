@@ -14,11 +14,14 @@ module EZAPIClient
     private
 
     def default_success
+      return false if response_body.nil?
       response_body[:success]
     end
 
     def default_response_body
       JSON.parse(raw_response.body)
+    rescue JSON::ParserError
+      nil
     end
 
     def default_code

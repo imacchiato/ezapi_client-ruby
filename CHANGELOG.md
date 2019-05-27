@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Fixed
+- EZAPI server couldn't parse escaped JSON; escape values instead of whole JSON instead
+
 ## [1.0.2] - 2019-05-14
 ### Fixed
 - Shell command to java blows up when sender/recipient name or address includes `'`

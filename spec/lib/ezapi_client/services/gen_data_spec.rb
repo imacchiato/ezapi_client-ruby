@@ -25,12 +25,12 @@ module EZAPIClient
           prv_path: "prv",
           eks_path: "eks",
           reference_no: "tn1",
-          json: { hi: "there" }.to_json
+          json: { hi: "d'there" }.to_json
         )
       end
 
       it "is the command to execute the java jarfile" do
-        expected_json = Shellwords.escape(%Q({"hi":"there"}))
+        expected_json = %Q({"hi":"d\'there"})
         expect(generator.command).
           to eq %Q(java -cp #{JAR_PATH} ezpadala.EZdata prv eks uname pass tn1 '#{expected_json}')
       end

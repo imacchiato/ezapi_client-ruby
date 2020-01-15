@@ -20,8 +20,10 @@ module EZAPIClient
     def call
       if log
         logger.info(EZAPIClient::LOG_PROGNAME) { command }
+        ExecCommand.(command, logger)
+      else
+        ExecCommand.(command)
       end
-      ExecCommand.(command)
     end
 
     private

@@ -47,7 +47,7 @@ module EZAPIClient
         end
 
         it "logs to the logger with the progname" do
-          expect(ExecCommand).to receive(:call).with("exec me")
+          expect(ExecCommand).to receive(:call).with("exec me", logger)
           generator.()
 
           expect(File.read("tmp/test.log")).

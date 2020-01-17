@@ -44,8 +44,15 @@ module EZAPIClient
 
     def default_json
       message.each_with_object({}) do |(key, value), hash|
-        hash[key.to_s.camelcase(:lower)] = value
+        hash[key.to_s.camelcase(:lower)] = strip_special_characters(value)
       end.to_json
+    end
+
+    def strip_special_characters(value)
+      return value if !value.is_a?(String)
+
+      rule = /[^0-9A-Za-z ]/
+      value.gsub(rule, '')
     end
 
   end

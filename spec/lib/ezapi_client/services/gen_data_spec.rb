@@ -7,12 +7,30 @@ module EZAPIClient
       let(:message) do
         { reference_no: "referenceNo", trans_date: "2011-11-12".to_date }
       end
-      let(:generator) { described_class.new(message: message) }
+      let(:message_special_char) do
+          {
+            reference_no: "referenceNo",
+            trans_date: "2011-11-12".to_date,
+            sender_address1: "St Julian's",
+          }
+        end
 
       it "is attributes with lower camelcase keys" do
+        generator = described_class.new(message: message)
+
         expect(generator.json).to eq({
           referenceNo: "referenceNo",
           transDate: "2011-11-12",
+        }.to_json)
+      end
+
+      it "strips special characters" do
+        generator = described_class.new(message: message_special_char)
+
+        expect(generator.json).to eq({
+          referenceNo: "referenceNo",
+          transDate: "2011-11-12",
+          senderAddress1: "St Julians",
         }.to_json)
       end
     end

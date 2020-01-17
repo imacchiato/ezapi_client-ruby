@@ -1,5 +1,6 @@
 module EZAPIClient
   class GenData
+    ALLOWED_CHARACTERS = '[^\w\s-]'
 
     include Virtus.model
     attribute :username, String
@@ -51,8 +52,7 @@ module EZAPIClient
     def strip_special_characters(value)
       return value if !value.is_a?(String)
 
-      rule = /[^0-9A-Za-z ]/
-      value.gsub(rule, '')
+      value.gsub(Regexp.new(ALLOWED_CHARACTERS), '')
     end
 
   end

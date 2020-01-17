@@ -11,7 +11,7 @@ module EZAPIClient
           {
             reference_no: "referenceNo",
             trans_date: "2011-11-12".to_date,
-            sender_address1: "St Julian's",
+            sender_address1: "St Jul-ian's",
           }
         end
 
@@ -30,7 +30,7 @@ module EZAPIClient
         expect(generator.json).to eq({
           referenceNo: "referenceNo",
           transDate: "2011-11-12",
-          senderAddress1: "St Julians",
+          senderAddress1: "St Jul-ians",
         }.to_json)
       end
     end

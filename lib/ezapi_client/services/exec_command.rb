@@ -5,11 +5,7 @@ module EZAPIClient
     attribute :command, String
 
     def self.call(command, logger = nil)
-      if logger
-        self.new(command: command).(logger)
-      else
-        self.new(command: command).()
-      end
+      self.new(command: command).(logger)
     end
 
     def call(logger = nil)

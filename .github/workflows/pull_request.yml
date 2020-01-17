@@ -13,6 +13,13 @@ jobs:
         with:
           ruby-version: 2.6.x
       - name: Build and test with Rake
+        env:
+          USERNAME: z1uc7CukRHDiz5MalmlbQ2YVBSY=
+          PASSWORD: ${{secrets.TEST_PASSWORD}}
+          EKS_PATH: spec/fixtures/BLO00010.eks
+          PRV_PATH: spec/fixtures/BLO00010.prv
+          AGENT_CODE: ACE
+          HOST: https://apitest.easypadala.com
         run: |
           gem install bundler -v 1.17.3
           bundle install --jobs 4 --retry 3

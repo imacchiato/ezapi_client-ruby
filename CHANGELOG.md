@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.0] - 2020-01-20
+### Changed
+- Enable logging for possible json errors
+### Fixed
+- Strip special characters when converting string to json
+
 ## [1.1.2] - 2019-09-07
 ### Changed
 - Updated `bin/ezapi.jar`

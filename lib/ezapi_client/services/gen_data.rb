@@ -1,5 +1,6 @@
 module EZAPIClient
   class GenData
+    ALLOWED_CHARACTERS = '[^\w\s-]'
 
     include Virtus.model
     attribute :username, String
@@ -20,8 +21,10 @@ module EZAPIClient
     def call
       if log
         logger.info(EZAPIClient::LOG_PROGNAME) { command }
+        ExecCommand.(command, logger)
+      else
+        ExecCommand.(command)
       end
-      ExecCommand.(command)
     end
 
     private
@@ -42,8 +45,14 @@ module EZAPIClient
 
     def default_json
       message.each_with_object({}) do |(key, value), hash|
-        hash[key.to_s.camelcase(:lower)] = value
+        hash[key.to_s.camelcase(:lower)] = strip_special_characters(value)
       end.to_json
+    end
+
+    def strip_special_characters(value)
+      return value if !value.is_a?(String)
+
+      value.gsub(Regexp.new(ALLOWED_CHARACTERS), '')
     end
 
   end

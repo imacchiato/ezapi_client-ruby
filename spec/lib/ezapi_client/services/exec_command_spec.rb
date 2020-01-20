@@ -35,6 +35,7 @@ module EZAPIClient
       end
 
       context "errors" do
+        let(:logger) { Logger.new("tmp/test.log") }
         let(:command) do
           [
             "java -cp",
@@ -47,11 +48,17 @@ module EZAPIClient
             "TN0101010",
           ].join(" ")
         end
-        let(:result) { described_class.new(command: command).() }
+        let(:result) { described_class.new(command: command).(logger) }
 
         it "raises StandardError" do
           expect { result }.to raise_error(StandardError)
         end
+
+        it "logs to the logger" do
+          expect(File.read("tmp/test.log")).
+            to include("#{EZAPIClient::LOG_PROGNAME}: Error executing command:")
+        end
+
       end
     end
 

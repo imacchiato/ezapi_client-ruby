@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.1] - 2020-01-21
+### Changed
+- Re-release v1.2.0
+
 ## [1.2.0] - 2020-01-20
 ### Changed
 - Enable logging for possible json errors
